@@ -15,7 +15,7 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             enctype: 'multipart/form-data',
-            url: "php/authentication/test.php",
+            url: "php/authentication/login.php",
             data: data,
             processData: false,
             contentType: false,
