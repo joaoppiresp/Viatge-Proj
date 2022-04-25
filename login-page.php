@@ -97,21 +97,22 @@
         <!-- End PAGE -->
 
     </div>
-    <!-- BACKGROUND-IMAGE CLOSED -->
 
-    <!-- JQUERY JS -->
+    <!-- JQUERY JS 
     <script src="../assets/js/jquery.min.js"></script>
+    -->
 
     <!-- BOOTSTRAP JS -->
     <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
     <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- SHOW PASSWORD JS -->
+    <!-- SHOW PASSWORD JS 
     <script src="../assets/js/show-password.min.js"></script>
+    -->
 
-    <!-- Perfect SCROLLBAR JS-->
+    <!-- Perfect SCROLLBAR JS
     <script src="../assets/plugins/p-scroll/perfect-scrollbar.js"></script>
-
+    -->
     <!-- Color Theme js -->
     <script src="../assets/js/themeColors.js"></script>
 
