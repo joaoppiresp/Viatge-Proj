@@ -25,7 +25,7 @@ $(document).ready(function () {
                 console.log("SUCCESS : ", data);
                 $("#output").text(data);
                 $("#btnSubmit").prop("disabled", false);
-                window.location.replace('.../index.php');
+                window.location.replace('../index.php');
             },
             error: function (e) {
                 console.log("ERROR : ", e);
