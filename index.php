@@ -15,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
 
     <!-- TITLE -->
-    <title>Viatge - Dashboard </title>
+    <title>Dashboard</title>
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -218,9 +218,8 @@
                             </svg></div>
                     </div>
                 </div>
-                <!--/APP-SIDEBAR-->
             </div>
-
+            <!--/APP-SIDEBAR-->
             <!--app-content open-->
             <div class="main-content app-content mt-0">
                 <div class="side-app">
