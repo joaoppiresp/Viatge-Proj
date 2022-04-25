@@ -10,12 +10,12 @@ $(document).ready(function () {
         var data = new FormData(form);
  
         // disabled the submit button
-        //$("#btnSubmit").prop("disabled", true);
+        $("#btnSubmit").prop("disabled", true);
  
         $.ajax({
             type: "POST",
             enctype: 'multipart/form-data',
-            url: 'php/authentication/login.php',
+            url: "login.php",
             data: data,
             processData: false,
             contentType: false,
