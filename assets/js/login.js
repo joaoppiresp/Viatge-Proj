@@ -15,7 +15,7 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             enctype: 'multipart/form-data',
-            url: "php/authentication/login.php",
+            url: "assets/php/authentication/login.php",
             data: data,
             processData: false,
             contentType: false,
@@ -25,6 +25,7 @@ $(document).ready(function () {
                 console.log("SUCCESS : ", data);
                 $("#output").text(data);
                 $("#btnSubmit").prop("disabled", false);
+                window.location.replace("index.php");
             },
             error: function (e) {
                 console.log("ERROR : ", e);
