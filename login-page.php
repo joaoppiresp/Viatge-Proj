@@ -46,7 +46,7 @@
                 <!-- CONTAINER OPEN -->
                 <div class="col col-login mx-auto mt-7">
                     <div class="text-center">
-                        <img src="../assets/images/brand/logo-white.png" class="header-brand-img" alt="">
+                        <img src="../assets/images/brand/logo1-white.png" class="header-brand-img" alt="">
                     </div>
                 </div>
 
@@ -112,9 +112,9 @@
     <!-- Perfect SCROLLBAR JS
     <script src="../assets/plugins/p-scroll/perfect-scrollbar.js"></script>
     -->
-    <!-- Color Theme js -->
+    <!-- Color Theme js
     <script src="../assets/js/themeColors.js"></script>
-
+    -->
     <!-- CUSTOM JS -->
     <script src="../assets/js/custom.js" type="text/javascript"></script>
 
