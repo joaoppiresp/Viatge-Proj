@@ -1,11 +1,6 @@
 (function ($) {
     "use strict";
 
-    // PAGE LOADING
-    $(window).on("load", function (e) {
-        $("#global-loader").fadeOut("slow");
-    })
-
     // COLOR THEME
     $(document).on("click", "a[data-theme]", function () {
         $("head link#theme").attr("href", $(this).data("theme"));
@@ -60,22 +55,6 @@
         var attr = $(this).attr('data-bs-image-src');
         if (typeof attr !== typeof undefined && attr !== false) {
             $(this).css('background', 'url(' + attr + ') center center');
-        }
-    });
-
-    // QUANTITY CART INCREASE AND DECREASE
-    $('.add').on('click', function () {
-        var $qty = $(this).closest('div').find('.qty');
-        var currentVal = parseInt($qty.val());
-        if (!isNaN(currentVal)) {
-            $qty.val(currentVal + 1);
-        }
-    });
-    $('.minus').on('click', function () {
-        var $qty = $(this).closest('div').find('.qty');
-        var currentVal = parseInt($qty.val());
-        if (!isNaN(currentVal) && currentVal > 0) {
-            $qty.val(currentVal - 1);
         }
     });
 
