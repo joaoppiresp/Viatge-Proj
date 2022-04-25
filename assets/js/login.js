@@ -13,7 +13,7 @@ $(document).ready(function () {
         $("#btnSubmit").prop("disabled", true);
  
         $.ajax({
-            type: "GET",
+            type: "POST",
             enctype: 'multipart/form-data',
             url: "/assets/php/authentication/login.php",
             data: data,
