@@ -117,10 +117,10 @@
     <script src="../assets/js/themeColors.js"></script>
 
     <!-- CUSTOM JS -->
-    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/custom.js" type="text/javascript"></script>
 
     <!-- LOGIN SCRIPT -->
-    <script src="../assets/js/login.js"></script>
+    <script src="../assets/js/login.js" type="text/javascript"></script>
 
 </body>
 
