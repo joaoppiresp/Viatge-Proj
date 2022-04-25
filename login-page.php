@@ -124,6 +124,9 @@
     <!-- CUSTOM JS -->
     <script src="../assets/js/custom.js"></script>
 
+    <!-- LOGIN SCRIPT -->
+    <script src="../assets/js/login.js"></scrip>
+
 </body>
 
 </html>
