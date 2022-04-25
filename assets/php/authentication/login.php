@@ -3,8 +3,8 @@
 include '../database/init_connection.php';
 
 $email = $_POST['email'];
-$passwrd = md5($_POST['passwrd']);
-
+$passwrd = $_POST['passwrd'];
+//$passwrd = md5($_POST['passwrd']);
 if(!empty($email) && !empty($passwrd))
 {
     $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `passwrd` = '$passwrd'";
