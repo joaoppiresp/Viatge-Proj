@@ -125,7 +125,7 @@
     <script src="../assets/js/custom.js"></script>
 
     <!-- LOGIN SCRIPT -->
-    <script src="../assets/js/login.js"></scrip>
+    <script src="../assets/js/login.js"></script>
 
 </body>
 
