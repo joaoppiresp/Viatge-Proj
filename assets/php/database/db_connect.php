@@ -8,11 +8,7 @@ function OpenCon()
     $db = "d7l5frqabneo71";
     $conn = new mysqli($dbhost, $dbuser, $dbpass,$db); 
     echo "connected to database"
-    if(!$conn){
-        die("Connection failed: %s\n". $conn -> error);
-    }
-    
-    //or die("Connect failed: %s\n". $conn -> error);
+    or die("Connect failed: %s\n". $conn -> error);
     return $conn;
 }
 
