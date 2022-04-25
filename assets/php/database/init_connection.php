@@ -3,6 +3,6 @@
 
     $conn = OpenCon();
     
-    //echo 'Connected!!';
+    echo 'Connected!!';
 
 ?>
