@@ -98,9 +98,8 @@
 
     </div>
 
-    <!-- JQUERY JS 
+    <!-- JQUERY JS -->
     <script src="../assets/js/jquery.min.js"></script>
-    -->
 
     <!-- BOOTSTRAP JS -->
     <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
