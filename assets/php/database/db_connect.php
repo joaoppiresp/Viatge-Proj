@@ -11,7 +11,8 @@ function OpenCon()
     if($dbconn){
         echo'Connected to database';
         $query_string = 'SELECT * FROM users;';
-        pg_query($dbconn, $query_string);
+        $result = pg_query($dbconn, $query_string);
+        echo $result;
 
     }else{
         echo'connection failed';
