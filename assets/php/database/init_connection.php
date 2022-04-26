@@ -1,7 +1,7 @@
 <?php 
     include 'db_connect.php'; 
 
-    $conn = OpenCon();
+    $dbconn = OpenCon();
     
     echo 'Connected!!';
 
