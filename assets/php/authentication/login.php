@@ -6,7 +6,7 @@ $email = $_POST['uemail'];
 $password = $_POST['psw'];
 //$password = md5($_POST['passwrd']);
 
-if(!empty($email) && !empty($password))
+if(empty($email) && empty($password))
 {
     $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `passwrd` = '$password'";
  
