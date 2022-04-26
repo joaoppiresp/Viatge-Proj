@@ -26,12 +26,11 @@ if(!empty($email) && !empty($password))
             echo $row[3],"<br></br>";
             echo $row[4],"<br></br>";
         }
-        echo json_encode($result_array);
+        //echo json_encode($result_array);
     }
     else
     {
-        $result2 = pg_get_result($dbconn);
-        printf("Error message: %s\n", pg_result_error($dbconn));
+        echo'failed to follow through';
     }
 }
 
