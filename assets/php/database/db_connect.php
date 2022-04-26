@@ -10,9 +10,11 @@ function OpenCon()
     //debug connection
     if($dbconn){
         echo'Connected to database';
-        $query_string = 'SELECT * FROM users;';
-        $result = pg_query($dbconn, $query_string);
-        echo $result;
+        $result = pg_query($dbconn, "SELECT * FROM users");
+        while($row = pg_fetch_row($result)){
+            $newArray[] = $row[0];
+            return $newArray;
+        }
 
     }else{
         echo'connection failed';
