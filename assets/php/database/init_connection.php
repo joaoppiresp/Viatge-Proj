@@ -4,7 +4,7 @@
     $dbconn = OpenCon();
     
     //debug connection
-    /*
+    
     if($dbconn){
         echo'Connected to database<br></br>';
         $result = pg_query($dbconn, "SELECT * FROM users");
@@ -21,5 +21,5 @@
         echo'connection failed';
         exit;
     }
-    */
+    
 ?>
