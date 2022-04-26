@@ -5,28 +5,28 @@ include '../database/init_connection.php';
 $email = $_POST['email'];
 $passwrd = $_POST['passwrd'];
 //$passwrd = md5($_POST['passwrd']);
+
 if(!empty($email) && !empty($passwrd))
 {
-    $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `passwrd` = '$passwrd'";
-
-    // insert in database 
-    $result = mysqli_query($conn, $sql);
+    $login_query = "SELECT * FROM users WHERE `email` = '$email' AND `passwrd` = '$passwrd'";
+ 
+    $result = pg_query($dbconn, $login_query);
 
     if($result)
     {
         $result_array = array();
-        while($row = mysqli_fetch_assoc($result)){
+        while($row = pg_fetch_row($result)){
             $result_array[] = $row;
         }
-
         echo json_encode($result_array);
     }
     else
     {
-        printf("Error message: %s\n", mysqli_error($conn));
+        $result2 = pg_get_result($dbconn);
+        printf("Error message: %s\n", pg_result_error($dbconn));
     }
 }
 
-CloseCon($conn);
+CloseCon($dbconn);
 
 ?>
