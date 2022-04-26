@@ -13,7 +13,7 @@ function OpenCon()
         $result = pg_query($dbconn, "SELECT * FROM users");
         while($row = pg_fetch_row($result)){
             $newArray[] = $row[0];
-            return $newArray;
+            print($newArray);
         }
 
     }else{

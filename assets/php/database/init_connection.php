@@ -3,7 +3,6 @@
 
     $dbconn = OpenCon();
     
-    print_r($newArray);
 
     //echo 'Connected!!';
 
