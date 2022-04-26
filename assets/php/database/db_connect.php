@@ -6,9 +6,10 @@ function OpenCon()
 
     $dbconn = pg_connect($conn_string) or die("Connection not successfull");
     
-    //return $dbconn;
+    return $dbconn;
 
     //debug 
+    /*
     if($dbconn){
         echo'Connected to database<br></br>';
         $result = pg_query($dbconn, "SELECT * FROM users");
@@ -28,6 +29,7 @@ function OpenCon()
         echo'Connection failed';
         exit;
     }
+    */
 }
 
 function CloseCon($dbconn)

@@ -2,15 +2,15 @@
 
 include '../database/init_connection.php';
 
-$email = $_POST['email'];
-$passwrd = $_POST['passwrd'];
-//$passwrd = md5($_POST['passwrd']);
+$email = $_POST['uemail'];
+$password = $_POST['psw'];
+//$password = md5($_POST['passwrd']);
 
-if(!empty($email) && !empty($passwrd))
+if(!empty($email) && !empty($password))
 {
-    $login_query = "SELECT * FROM users WHERE `email` = '$email' AND `passwrd` = '$passwrd'";
+    $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `passwrd` = '$password'";
  
-    $result = pg_query($dbconn, $login_query);
+    $result = pg_query($dbconn, $sql);
 
     if($result)
     {
