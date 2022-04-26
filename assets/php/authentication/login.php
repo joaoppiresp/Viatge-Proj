@@ -11,7 +11,7 @@ $password = 'password123';
 
 if(!empty($email) && !empty($password))
 {
-    $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `passwrd` = '$password'";
+    $sql = "SELECT * FROM users WHERE email=$email AND passwrd=$password;";
  
     $result = pg_query($dbconn, $sql);
 
