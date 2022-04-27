@@ -21,16 +21,16 @@ $('form.login-ajax').on('submit', function(){
         data: data,
         success: function(response){
 
-            if(response ==='"1"'){
-                console.log("code: " ,response,", Success!");
-                localStorage.setItem('email', response);
-                window.location.replace('profile.php');
-            }else if(response ==='"0"'){
+            if(response ==='"0"'){
                 console.log("code: " ,response,", user not found!");
+
             }else if(response ==='"2"'){
                 console.log("code: " ,response,", form not filled correctly!");
+            }else {
+                console.log("email: " ,response,", Success!");
+                localStorage.setItem('email', response);
+                window.location.replace('profile.php');
             }
-
         },
         error: function (e) {
             console.log("ERROR: ",e);
