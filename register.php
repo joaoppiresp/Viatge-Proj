@@ -44,7 +44,7 @@
                 <!-- CONTAINER OPEN -->
                 <div class="col col-login mx-auto mt-7">
                     <div class="text-center">
-                        <img src="../assets/images/brand/logo-white.png" class="header-brand-img m-0" alt="">
+                        <img src="../assets/images/brand/logo1-white.png" class="header-brand-img m-0" alt="">
                     </div>
                 </div>
                 <div class="container-login100">
