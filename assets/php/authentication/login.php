@@ -17,14 +17,13 @@ if(!empty($email) && !empty($password))
 
     if($result)
     {
-        $result_array = array();
-        while($row = pg_fetch_row($result)){
-            $result_array[] = $row;
-            echo $row[0],"<br></br>";
-            echo $row[1],"<br></br>";
-            echo $row[2],"<br></br>";
-            echo $row[3],"<br></br>";
-            echo $row[4],"<br></br>";
+        while($arr = pg_fetch_array($result)){
+            //$result_array[] = $row;
+            echo $arr[0],"<br></br>";
+            echo $arr[1],"<br></br>";
+            echo $arr[2],"<br></br>";
+            echo $arr[3],"<br></br>";
+            echo $arr[4],"<br></br>";
         }
         //echo json_encode($result_array);
     }
