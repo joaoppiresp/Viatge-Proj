@@ -2,9 +2,13 @@
     
 include '../database/init_connection.php';
 
-$username = $_POST['uename'];
-$email = $_POST['uemail'];
-$password = $_POST['psw'];
+//$username = $_POST['uename'];
+//$email = $_POST['uemail'];
+//$password = $_POST['psw'];
+
+$username = 'testuser2';
+$email = 'testuser2@gmail.com';
+$password = 'password123';
 
 if(!empty($username) && !empty($email) && !empty($password)){
 
