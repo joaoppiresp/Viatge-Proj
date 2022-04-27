@@ -12,7 +12,6 @@ if(!empty($email) && !empty($password))
 {
 
     $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
-    $result = pg_fetch_row($result);
 
     if($result){
         while($row = pg_fetch_row($result)){ 
