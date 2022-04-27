@@ -10,12 +10,12 @@ $password = 'password123';
 
 if(!empty($email) && !empty($password))
 {
-
-    $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
+    //true || false boolean return
+    $result = pg_query($dbconn, "SELECT EXISTS(SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "')");
 
     if($result === FALSE){
-        
-        echo pg_last_error($dbconn);
+
+        echo 'user not found';
        
     }else{
         while($row = pg_fetch_row($result)){ 
