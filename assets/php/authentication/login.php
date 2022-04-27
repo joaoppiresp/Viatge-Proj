@@ -14,14 +14,13 @@ if(!empty($email) && !empty($password))
     while($row = pg_fetch_row($result)){ 
         
         if(json_encode($row)==='["f"]'){
-            //user not found
-            //echo json_encode($value);
-            exit;
+            $value = '0'; //user not found
+            echo json_encode($value);
+            
         }else{
            $value = '1'; //user found
            echo json_encode($value);
         }
-        
     }
 
 }else{

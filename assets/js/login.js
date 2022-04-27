@@ -20,10 +20,16 @@ $('form.login-ajax').on('submit', function(){
         type: method,
         data: data,
         success: function(response){
-            console.log("SUCCESS : " ,response);
+
+            if(response ==='["1"]'){
+                console.log("SUCCESS : " ,response);
+            }else{
+                console.log("user not found, try again: ",response);
+            }
+
         },
         error: function (e) {
-            console.log("user not found, try again: ",e);
+            console.log("ERROR: ",e);
         }
     });
 
