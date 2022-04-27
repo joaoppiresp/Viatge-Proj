@@ -31,27 +31,29 @@ function OpenCon()
     }
     */
 
-    //debug2
-    $email = 'testuser@gmail.com';
-    $password = 'password123';
+        //debug2
+        if($dbconn){
+            echo'Connected to database<br></br>';
+            $email = 'testuser@gmail.com';
+            $password = 'password123';
     
-        //$result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
-        $result = pg_query($dbconn,"SELECT * FROM users");
-        //$result = pg_fetch_array($result);
-
-        if($result)
-        {
-            while($row = pg_fetch_row($result)){ 
-                echo $row[0],"<br></br>";
-                echo $row[1],"<br></br>";
-                echo $row[2],"<br></br>";
-                echo $row[3],"<br></br>";
-                echo $row[4],"<br></br>";
+            //$result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
+            $result = pg_query($dbconn,"SELECT * FROM users");
+            //$result = pg_fetch_array($result);
+            
+            if($result)
+            {
+                while($row = pg_fetch_row($result)){ 
+                    echo $row[0],"<br></br>";
+                    echo $row[1],"<br></br>";
+                    echo $row[2],"<br></br>";
+                    echo $row[3],"<br></br>";
+                    echo $row[4],"<br></br>";
+                }
+            }else{
+                echo'failed to print data';
             }
-        }else{
-            echo'failed to print data';
         }
-
 }
 
 function CloseCon($dbconn)
