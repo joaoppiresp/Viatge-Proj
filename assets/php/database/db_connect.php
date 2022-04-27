@@ -37,7 +37,7 @@ function OpenCon()
     
         //$result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
         $result = pg_query($dbconn,"SELECT * FROM users");
-        $result = pg_fetch_array($result);
+        //$result = pg_fetch_array($result);
 
         if($result)
         {
