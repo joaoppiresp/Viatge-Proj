@@ -11,7 +11,12 @@ if(!$result){
     echo 'query failed';
 }else{
     while($row = pg_fetch_row($result)){ 
-        echo json_encode($row);
+        $uid = json_encode($row[0]);
+        $uname = json_encode($row[1]);
+        $urole = json_encode($row[4]);
+        echo $uid;
+        echo $uname;
+        echo $urole;
    }
 }
 
