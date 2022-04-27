@@ -16,6 +16,7 @@ if(!empty($email) && !empty($password))
     if($result){
         while($row = pg_fetch_row($result)){ 
             echo json_encode($row);
+            echo 'bananas';
         }
     }else{
         $false_value = "false";
