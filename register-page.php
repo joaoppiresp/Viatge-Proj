@@ -65,10 +65,6 @@
 									<input type="checkbox" class="custom-control-input">
 									<span class="custom-control-label">Agree the <a href="terms.html">terms and policy</a></span>
 								</label>
-                            <div class="container-login100-form-btn">
-                                <a href="index.html" class="login100-form-btn btn-primary">
-										Register
-									</a>
                             </div>
                             <div class="text-center pt-3">
                                 <p class="text-dark mb-0">Already have account?<a href="login.html" class="text-primary ms-1">Sign In</a></p>
