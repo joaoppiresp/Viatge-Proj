@@ -121,10 +121,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="dropdown-divider m-0"></div>
-                                                <a class="dropdown-item" href=".\html\profile.html">
+                                                <a class="dropdown-item" href="profile.php">
                                                     <i class="dropdown-icon fe fe-user"></i> Profile
                                                 </a>
-                                                <a class="dropdown-item" href="login.html">
+                                                <a class="dropdown-item" href="login-page.php">
                                                     <i class="dropdown-icon fe fe-alert-circle"></i> Sign out
                                                 </a>
                                             </div>
@@ -143,7 +143,7 @@
                 <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
                 <div class="app-sidebar">
                     <div class="side-header">
-                        <a class="header-brand1" href="index.html">
+                        <a class="header-brand1" href="index.php">
                             <img src="../assets/images/brand/logo3-grey.png" class="header-brand-img desktop-logo" alt="logo">
                             <img src="../assets/images/brand/logo2-grey.png" class="header-brand-img toggle-logo"
                                 alt="logo">
@@ -163,7 +163,7 @@
                                 <h3>Main</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.html"><i
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i
                                         class="side-menu__icon fe fe-home"></i><span
                                         class="side-menu__label">Dashboard</span></a>
                             </li>
@@ -179,7 +179,7 @@
                                         class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Pages</a></li>
-                                    <li><a href="profile.html" class="slide-item"> Profile</a></li>
+                                    <li><a href="profile.php" class="slide-item"> Profile</a></li>
                                     <li><a href="editprofile.html" class="slide-item"> Edit Profile</a></li>
                                     <li><a href="notify-list.html" class="slide-item"> Notifications List</a></li>
                                     <li><a href="email-compose.html" class="slide-item"> Mail-Compose</a></li>
