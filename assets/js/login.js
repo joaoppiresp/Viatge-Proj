@@ -18,7 +18,7 @@ $(document).ready(function () {
             contentType: false,
             cache: false,
             timeout: 800000,
-            success: function (data) {
+            success: function (){
 
                 if(data === '0'){
                     console.log("user not found, try again");
