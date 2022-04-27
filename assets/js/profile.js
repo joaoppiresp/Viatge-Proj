@@ -5,7 +5,7 @@ $(document).ready(function(){
     $.ajax({
         url: 'assets/php/profile.php',
         type: POST,
-        data: data,
+        data: $uemail,
         success: function(response){
             if(response ==='"0"'){
                 console.log("code: " ,response,", query didnt work");
