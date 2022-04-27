@@ -18,8 +18,8 @@ if(!empty($email) && !empty($password))
             echo json_encode($value);
             
         }else{
-           $value = '1'; //user found
-           echo json_encode($value);
+           //user found
+           echo json_encode($email);
         }
     }
 

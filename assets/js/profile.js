@@ -1,19 +1,6 @@
-$('form.login-ajax').on('submit', function(){
+$(document).ready(function(){
 
-    //referencing the form
-    var that = $(this),
-        url = that.attr('action'),
-        method = that.attr('method'),
-        data = {};
-
-    //gets only the parts of the form wth attr name
-    that.find('[name]').each(function(index, value){
-        var that = $(this),
-            name =that.attr('name'),
-            value = that.val();
-
-        data[name] = value;
-    });
+    
 
     $.ajax({
         url: url,
@@ -23,8 +10,7 @@ $('form.login-ajax').on('submit', function(){
 
             if(response ==='"1"'){
                 console.log("code: " ,response,", Success!");
-                localStorage.setItem('email', response);
-                window.location.replace('profile.php');
+                window.location.replace('index.php');
             }else if(response ==='"0"'){
                 console.log("code: " ,response,", user not found!");
             }else if(response ==='"2"'){

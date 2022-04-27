@@ -1349,6 +1349,9 @@
     <!-- CUSTOM JS -->
     <script src="../assets/js/custom.js"></script>
 
+    <!-- PROFILE SCRIPT -->
+    <script src="../assets/js/profile.js" type="text/javascript"></script>
+
 </body>
 
 </html>

@@ -6,9 +6,10 @@ $username = $_POST['uename'];
 $email = $_POST['uemail'];
 $password = $_POST['psw'];
 
+
 if(!empty($username) && !empty($email) && !empty($password)){
     //currently not creating admin or tech users
-    $result = pg_query_params($dbconn, "INSERT INTO users(username, email, passwrd, role_fk) VALUES(\$1, \$2, \$3, '1') RETURNING '1'", array($username, $email, $password));
+    $result = pg_query_params($dbconn, "INSERT INTO users(username, email, passwrd, role_fk) VALUES(\$1, \$2, \$3, '1')", array($username, $email, $password));
 
     while($row = pg_fetch_row($result)){ 
         
