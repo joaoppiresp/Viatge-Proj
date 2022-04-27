@@ -18,7 +18,7 @@ $(document).ready(function () {
             timeout: 800000,
             success: function (data){
                 $("#btnSubmit").prop("disabled", false);
-                console.log("SUCCESS : ");
+                console.log("SUCCESS : " ,data);
                 //window.location.replace("index.php");
             },
             error: function (e) {
