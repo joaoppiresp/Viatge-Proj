@@ -13,7 +13,7 @@ $(document).ready(function () {
             type: "POST",
             enctype: 'multipart/form-data',
             url: "assets/php/authentication/login.php",
-            data: data,
+            data: { uemail: $('#uemail').val() , psw: $('#psw').val()},
             processData: false,
             contentType: false,
             cache: false,
