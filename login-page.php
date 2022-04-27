@@ -66,7 +66,7 @@
 
                                                 <label for="psw"><b>Password</b></label>
                                                 <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password" name="psw" required>
-                                                <input class="login100-form-btn btn-primary" type="submit" value="Submit">
+                                                <input class="login100-form-btn btn-primary" type="submit" value="Submit" id="btnSubmit>
 
                                                 <div class="text-end pt-4">
                                                     <p class="mb-0"><a href="forgot-password.html" class="text-primary ms-1">Forgot Password?</a></p>
