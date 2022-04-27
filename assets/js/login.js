@@ -29,7 +29,7 @@ $('form.login-ajax').on('submit', function(){
             }else {
                 console.log("email: " ,response,", Success!");
                 localStorage.setItem('email', response);
-                window.location.replace('profile.php');
+                window.location.replace('profile-page.php');
             }
         },
         error: function (e) {
