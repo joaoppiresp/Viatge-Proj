@@ -52,8 +52,7 @@
 
                 <div class="container-login100">
                     <div class="wrap-login100 p-6">
-                        <form class="login100-form validate-form">
-                            <span class="login100-form-title pb-5">
+                    <span class="login100-form-title pb-5">
                                 Login
                             </span>
                             <div class="panel panel-primary">
@@ -62,10 +61,9 @@
                                         <div class="tab-pane active" id="tab5">
                                             <form class="login-ajax" action="assets/php/authentication/login.php" method="POST">
                                                 <label for="uemail"><b>Email</b></label>
-                                                <input type="text" placeholder="Email" name="uemail" required>
-
+                                                <input type="text" placeholder="Email" name="uemail">
                                                 <label for="psw"><b>Password</b></label>
-                                                <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password" name="psw" required>
+                                                <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password" name="psw">
                                                 <input class="login100-form-btn btn-primary" type="submit" value="Submit" id="btnSubmit">
 
                                                 <div class="text-end pt-4">
@@ -79,8 +77,7 @@
                                     </div>
                                 </div>
                             </div>
-
-                        </form>
+                        <form class="login100-form validate-form"></form>
                     </div>
                 </div>
                 <!-- CONTAINER CLOSED -->
