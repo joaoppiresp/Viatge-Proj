@@ -19,16 +19,19 @@ $(document).ready(function () {
             cache: false,
             timeout: 800000,
             success: function (data) {
-                console.log("SUCCESS : ", data);
-                $("#output").text(data);
-                $("#btnSubmit").prop("disabled", false);
-                
-                console.log("login successfull")
-                //window.location.replace("index.php");
+
+                if(data === 'false'){
+                    console.log("user not found, try again");
+                    window.location.reload;
+                }else{
+                    $("#btnSubmit").prop("disabled", false);
+                    console.log("SUCCESS : ", data);
+                    //window.location.replace("index.php");
+                }
+
             },
             error: function (e) {
                 console.log("ERROR : ", e);
-                $("#output").text(data);
                 $("#btnSubmit").prop("disabled", false);
             }
         });
