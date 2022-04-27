@@ -2,12 +2,12 @@
     
 include '../database/init_connection.php';
 
-$username = $POST['uename'];
+$username = $_POST['uename'];
 $email = $_POST['uemail'];
 $password = $_POST['psw'];
 
 if(!empty($username) && !empty($email) && !empty($password)){
-    
+
     $arr = array(
         'username' => $username,
         'email' => $email,
