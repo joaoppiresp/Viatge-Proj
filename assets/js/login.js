@@ -23,7 +23,7 @@ $(document).ready(function () {
                     window.location.reload();
                 }else{
                     $("#btnSubmit").prop("disabled", false);
-                    console.log("SUCCESS : ", data);
+                    console.log("SUCCESS : ");
                     //window.location.replace("index.php");
                 }
 
