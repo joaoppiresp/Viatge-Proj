@@ -8,7 +8,7 @@ $email = 'testuser@gmail.com';
 if(!empty($email))
 {
     
-    $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email ."'");
+    $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email=" . $email ."");
 
     while($row = pg_fetch_row($result)){ 
         echo json_encode($row);
