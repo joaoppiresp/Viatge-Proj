@@ -2,10 +2,8 @@ $(document).ready(function () {
     $("#btnSubmit").click(function (event) {
         //stop submit the form, we will post it manually.
         event.preventDefault();
-        // Get form
-        var form = $('#loginForm');
         // FormData object 
-        var data = new FormData(form);
+        var data = new FormData($loginForm);
         // disabled the submit button
         $("#btnSubmit").prop("disabled", true);
  
