@@ -54,9 +54,9 @@
 								Registration
 							</span>
                             <label for="uename"><b>Name</b></label>
-                            <input type="text" placeholder="User name" name="uename">
+                            <input class="input100 border-start-0 form-control ms-0" type="text" placeholder="User name" name="uename">
                             <label for="uemail"><b>Email</b></label>
-                            <input type="text" placeholder="Email" name="uemail">
+                            <input class="input100 border-start-0 form-control ms-0" type="text" placeholder="Email" name="uemail">
                             <label for="psw"><b>Password</b></label>
                             <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password" name="psw">
                             <input class="login100-form-btn btn-primary" type="submit" value="Submit" id="btnSubmit">
