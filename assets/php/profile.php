@@ -11,7 +11,7 @@ if(!$result){
     echo 'query failed';
 }else{
     while($row = pg_fetch_array($result)){ 
-        echo json_encode($row);
+        echo json_encode($row[0]);
        
    }
 }
