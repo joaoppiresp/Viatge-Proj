@@ -15,7 +15,10 @@ if(!$result){
         $uname = json_encode($row[1]);
         $urole = json_encode($row[4]);
         $arr = array($uid, $uname, $urole);
-        echo $arr;
+        echo $arr[0];
+        echo $arr[1];
+        echo $arr[2];
+
    }
 }
 
