@@ -10,14 +10,10 @@ $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email .
 if(!$result){
     echo 'query failed';
 }else{
-    echo json_encode($result);
+    while($row = pg_fetch_row($result)){ 
+        echo json_encode($row);
+   }
 }
-
-/*
-while($row = pg_fetch_array($result)){ 
-     echo json_encode($row);
-}
-*/
 
 CloseCon($dbconn);
 
