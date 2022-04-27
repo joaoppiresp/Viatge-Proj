@@ -12,7 +12,8 @@ $(document).ready(function(){
             }else {
                 console.log("user data: " ,response,", Success!");
                 $udata = response;
-                
+                $name = document.getElementById('profile-name').innerHTML.replace(response[1]);
+                $role = document.getElementById('profile-role').innerHTML.replace(response[4]);
             }
         },
         error: function (e) {
