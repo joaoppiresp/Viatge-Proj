@@ -6,7 +6,7 @@ function OpenCon()
 
     $dbconn = pg_connect($conn_string) or die("Connection not successfull");
     
-    //return $dbconn;
+    return $dbconn;
 
     //debug 
     /*
@@ -31,30 +31,6 @@ function OpenCon()
     }
     */
 
-        //debug2
-        if($dbconn){
-            echo'Connected to database<br></br>';
-            $email = 'testuser@gmail.com';
-            $password = 'password123';
-    
-            $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
-    
-            if($result)
-            {
-                while($row = pg_fetch_row($result)){ 
-                    echo $row[0],"<br></br>";
-                    echo $row[1],"<br></br>";
-                    echo $row[2],"<br></br>";
-                    echo $row[3],"<br></br>";
-                    echo $row[4],"<br></br>";
-                }
-            }else{
-                echo'failed to query database';
-            }
-        }else{
-            echo'Connection failed';
-            exit;
-    }
 }
 
 function CloseCon($dbconn)
