@@ -40,7 +40,7 @@ function OpenCon()
             //$result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
             $result = pg_query($dbconn,"SELECT * FROM users");
             //$result = pg_fetch_array($result);
-            
+
             if($result)
             {
                 while($row = pg_fetch_row($result)){ 
@@ -51,9 +51,12 @@ function OpenCon()
                     echo $row[4],"<br></br>";
                 }
             }else{
-                echo'failed to print data';
+                echo'failed to query database';
             }
-        }
+        }else{
+            echo'Connection failed';
+            exit;
+    }
 }
 
 function CloseCon($dbconn)
