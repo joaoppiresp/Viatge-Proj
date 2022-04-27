@@ -18,7 +18,8 @@ if(!empty($email) && !empty($password))
             echo json_encode($row);
         }
     }else{
-        echo json_encode($row);
+        $false_value = "false";
+        echo json_encode($false_value);
     }
 
 }else{
