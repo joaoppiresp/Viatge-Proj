@@ -12,14 +12,9 @@ $password = 'password123';
 
 if(!empty($username) && !empty($email) && !empty($password)){
 
-    $arr = array(
-        'username' => $username,
-        'email' => $email,
-        'passwrd' => $password
-    );
-    $values = pg_convert($dbconn, 'users', $arr);
+    $result = pg_query_params($dbconn, "INSERT INTO users(username, email, passwrd) VALUES(\$1, \$2, \$3)", array($username, $email, $password));
 
-    $result = pg_insert($dbconn, 'users', $values);
+    //$result = pg_insert($dbconn, 'users', array());
 
     while($row = pg_fetch_row($result)){ 
         
