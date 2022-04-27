@@ -21,7 +21,7 @@ $('form.login-ajax').on('submit', function(){
         data: data,
         success: function(response){
 
-            if(response ==='1'){
+            if(response ==='"1"'){
                 console.log("SUCCESS : " ,response);
             }else{
                 console.log("user not found, try again: ",response);
