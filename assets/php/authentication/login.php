@@ -19,11 +19,11 @@ if(!empty($email) && !empty($password))
     {
         while($arr = pg_fetch_array($result)){
             //$result_array[] = $row;
-            echo $arr[0],"<br></br>";
-            echo $arr[1],"<br></br>";
-            echo $arr[2],"<br></br>";
-            echo $arr[3],"<br></br>";
-            echo $arr[4],"<br></br>";
+            echo $arr[0]."<br></br>";
+            echo $arr[1]."<br></br>";
+            echo $arr[2]."<br></br>";
+            echo $arr[3]."<br></br>";
+            echo $arr[4]."<br></br>";
         }
         //echo json_encode($result_array);
     }
