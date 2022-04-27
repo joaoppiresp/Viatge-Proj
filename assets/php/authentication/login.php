@@ -15,8 +15,7 @@ if(!empty($email) && !empty($password))
 
     if($result){
         while($row = pg_fetch_row($result)){ 
-            //echo json_encode($row);
-            return $row;
+            return json_encode($row);
         }
     }else{
         echo'failed to query database';

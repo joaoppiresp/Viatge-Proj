@@ -22,6 +22,7 @@ $(document).ready(function () {
                 console.log("SUCCESS : ", data);
                 $("#output").text(data);
                 $("#btnSubmit").prop("disabled", false);
+                
                 console.log("login successfull")
                 //window.location.replace("index.php");
             },
