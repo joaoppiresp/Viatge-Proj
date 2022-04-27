@@ -2,31 +2,32 @@
 
 include '../database/init_connection.php';
 
-$email = $_POST['email'];
-$passwrd = $_POST['passwrd'];
-//$passwrd = md5($_POST['passwrd']);
-if(!empty($email) && !empty($passwrd))
+$email = $_POST['uemail'];
+$password = $_POST['psw'];
+//$password = md5($_POST['passwrd']);
+
+if(!empty($email) && !empty($password))
 {
-    $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `passwrd` = '$passwrd'";
+    //true || false boolean return
+    $result = pg_query($dbconn, "SELECT EXISTS(SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "')");
 
-    // insert in database 
-    $result = mysqli_query($conn, $sql);
-
-    if($result)
-    {
-        $result_array = array();
-        while($row = mysqli_fetch_assoc($result)){
-            $result_array[] = $row;
+    while($row = pg_fetch_row($result)){ 
+        
+        if(json_encode($row)==='["f"]'){
+            //$value = '0'; //user not found
+            //echo json_encode($value);
+            return null;
+        }else{
+           $value = '1'; //user found
+           echo json_encode($value);
         }
+        
+    }
 
-        echo json_encode($result_array);
-    }
-    else
-    {
-        printf("Error message: %s\n", mysqli_error($conn));
-    }
+}else{
+    echo'paramm email and password empty';
 }
 
-CloseCon($conn);
+CloseCon($dbconn);
 
 ?>

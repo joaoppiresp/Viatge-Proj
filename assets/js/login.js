@@ -1,8 +1,6 @@
 $(document).ready(function () {
     $("#btnSubmit").click(function (event) {
-        //stop submit the form, we will post it manually.
-        event.preventDefault();
- 
+
         // Get form
         var form = $('#loginForm')[0];
  
@@ -21,15 +19,14 @@ $(document).ready(function () {
             contentType: false,
             cache: false,
             timeout: 800000,
-            success: function (data) {
-                console.log("SUCCESS : ", data);
-                $("#output").text(data);
+            success: function (data){
+                console.log("SUCCESS : " ,data);
                 $("#btnSubmit").prop("disabled", false);
-                window.location.replace("index.php");
+                //window.location.replace("index.php");
             },
             error: function (e) {
-                console.log("ERROR : ", e);
-                $("#output").text(data);
+                console.log("user not found, try again: ",e);
+                //window.location.reload();
                 $("#btnSubmit").prop("disabled", false);
             }
         });

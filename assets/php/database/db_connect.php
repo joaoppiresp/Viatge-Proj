@@ -6,10 +6,25 @@ function OpenCon()
 
     $dbconn = pg_connect($conn_string) or die("Connection not successfull");
     
-    //return $dbconn;
+    return $dbconn;
 
-    //debug connection
-    return pg_query($dbconn, "SELECT * FROM users;");
+    //debug 
+    /*
+    if($dbconn){
+        echo'Connected to database<br></br>';
+        $result = pg_query($dbconn, "SELECT * FROM users");
+        if(!$result){
+            echo'Failed to query database<br></br>';
+        }else{
+            while($row = pg_fetch_row($result)){ 
+                echo json_encode($row);
+            }
+        }
+    }else{
+        echo'Connection failed';
+        exit;
+    }
+    */
 
 }
 
