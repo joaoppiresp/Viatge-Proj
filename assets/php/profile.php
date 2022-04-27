@@ -12,7 +12,17 @@ if(!$result){
 }else{
     while($row = pg_fetch_array($result)){ 
         echo json_encode($row[0]);
-       
+        echo '<br></br>';
+        echo json_encode($row[1]);
+        echo '<br></br>';
+        echo json_encode($row[2]);
+        echo '<br></br>';
+        echo json_encode($row[3]);
+        echo '<br></br>';
+        echo json_encode($row[4]);
+        echo '<br></br>';
+        echo json_encode($row[5]);
+        echo '<br></br>';
    }
 }
 
