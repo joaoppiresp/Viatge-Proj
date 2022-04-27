@@ -48,6 +48,8 @@ function OpenCon()
                 echo $row[3],"<br></br>";
                 echo $row[4],"<br></br>";
             }
+        }else{
+            echo'failed to print data';
         }
 
 }
