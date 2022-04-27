@@ -13,7 +13,7 @@ if(!empty($email) && !empty($password))
     //true || false boolean return
     $result = pg_query($dbconn, "SELECT EXISTS(SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "')");
 
-    if($result === FALSE){
+    if($result === "f"){
 
         echo 'user not found';
        
