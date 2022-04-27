@@ -34,7 +34,6 @@ function OpenCon()
     //debug2
     $email = 'testusers@gmail.com';
     $password = 'password123';
-    if(!empty($email) && !empty($password)){
     
         $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
         $result = pg_fetch_array($result);
@@ -49,11 +48,6 @@ function OpenCon()
                 echo $row[4],"<br></br>";
             }
         }
-
-    }else{
-    echo'param email and password not empty';
-    }
-
 
 }
 
