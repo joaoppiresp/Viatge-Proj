@@ -23,6 +23,7 @@ $('form.login-ajax').on('submit', function(){
 
             if(response ==='"1"'){
                 console.log("SUCCESS : " ,response);
+                window.location.replace(index.php);
             }else{
                 console.log("user not found, try again: ",response);
             }
