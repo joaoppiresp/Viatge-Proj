@@ -22,10 +22,13 @@ $('form.login-ajax').on('submit', function(){
         success: function(response){
 
             if(response ==='"1"'){
-                console.log("SUCCESS : " ,response);
+                console.log("code: " ,response,", Success!");
                 window.location.replace(index.php);
-            }else{
-                console.log("user not found, try again: ",response);
+            }else if(response ==='"0"'){
+                console.log("code: " ,response,", user not found!");
+            }else(response === '"2"'){
+                console.log("code: " ,response,", form not filled correctly!");
+
             }
 
         },
