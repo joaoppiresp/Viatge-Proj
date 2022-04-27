@@ -1,22 +1,19 @@
 $(document).ready(function(){
 
-    
+    $uemail = localStorage.getItem('email');
 
     $.ajax({
-        url: url,
-        type: method,
+        url: 'assets/php/profile.php',
+        type: POST,
         data: data,
         success: function(response){
-
-            if(response ==='"1"'){
-                console.log("code: " ,response,", Success!");
-                window.location.replace('index.php');
-            }else if(response ==='"0"'){
-                console.log("code: " ,response,", user not found!");
-            }else if(response ==='"2"'){
-                console.log("code: " ,response,", form not filled correctly!");
+            if(response ==='"0"'){
+                console.log("code: " ,response,", query didnt work");
+            }else {
+                console.log("user data: " ,response,", Success!");
+                $udata = response;
+                
             }
-
         },
         error: function (e) {
             console.log("ERROR: ",e);
