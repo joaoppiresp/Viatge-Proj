@@ -22,7 +22,7 @@ $(document).ready(function () {
 
                 if(data === '0'){
                     console.log("user not found, try again");
-                    window.location.reload;
+                    window.location.reload();
                 }else{
                     $("#btnSubmit").prop("disabled", false);
                     console.log("SUCCESS : ", data);
