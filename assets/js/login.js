@@ -3,7 +3,7 @@ $(document).ready(function () {
         //stop submit the form, we will post it manually.
         event.preventDefault();
         // FormData object 
-        var data = new FormData($loginForm);
+        var data = new FormData($('#loginForm'));
         // disabled the submit button
         $("#btnSubmit").prop("disabled", true);
  
