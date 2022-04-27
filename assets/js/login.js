@@ -1,8 +1,7 @@
 $(document).ready(function () {
-    $("#loginForm").submit(function (event) {
+    $("#btnSubmit").click(function (event) {
 
         event.preventDefault();
-        //FormData object 
         var data = new FormData($('#loginForm')[0]);
         $("#btnSubmit").prop("disabled", true);
  
