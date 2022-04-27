@@ -35,7 +35,7 @@ function OpenCon()
         if($dbconn){
             echo'Connected to database<br></br>';
             $email = 'testuser@gmail.com';
-            $password = 'password123';
+            $password = 'password1234';
     
             $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
     
