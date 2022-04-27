@@ -25,7 +25,7 @@ if(!empty($email) && !empty($password))
 
 }else{
     $value = '2'; //form not filled correctly
-           echo json_encode($value);
+    echo json_encode($value);
 }
 
 CloseCon($dbconn);
