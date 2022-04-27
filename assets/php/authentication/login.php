@@ -13,14 +13,14 @@ if(!empty($email) && !empty($password))
     //true || false boolean return
     $result = pg_query($dbconn, "SELECT EXISTS(SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "')");
 
-    if($row = pg_fetch_row($result) === "f"){
-
-        echo 'user not found';
-       
-    }else{
-        while($row = pg_fetch_row($result)){ 
+    while($row = pg_fetch_row($result)){ 
+        
+        if(json_encode($row)==='f'){
+            echo 'user not found';
+        }else{
             echo json_encode($row);
         }
+        
     }
 
 }else{
