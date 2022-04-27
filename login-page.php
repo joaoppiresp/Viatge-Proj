@@ -65,13 +65,13 @@
                                                 <input class="input100 border-start-0 form-control ms-0" type="text" placeholder="Email" name="uemail" required>
                                                 <label for="psw"><b>Password</b></label>
                                                 <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password" name="psw" required>
+                                                <div class="text-end pt-4">
+                                                    <p class="mb-0"><a href="forgot-password.html" class="text-primary ms-1">Forgot Password?</a></p>
+                                                </div>
+                                                <div class="container-login100-form-btn">
+                                                    <input class="login100-form-btn btn-primary" type="submit" value="Submit" id="btnSubmit"></input>
+                                                </div>
                                             </form>        
-                                            <div class="text-end pt-4">
-                                                <p class="mb-0"><a href="forgot-password.html" class="text-primary ms-1">Forgot Password?</a></p>
-                                            </div>
-                                            <div class="container-login100-form-btn">
-                                                <input class="login100-form-btn btn-primary" type="submit" value="Submit" id="btnSubmit"></input>
-                                            </div>
                                             <div class="text-center pt-3">
                                                 <p class="text-dark mb-0">Not a member?<a href="register.html" class="text-primary ms-1">Sign UP</a></p>
                                             </div>
