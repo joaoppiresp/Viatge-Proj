@@ -1,6 +1,6 @@
 <?php
 
-include './database/init_connection.php';
+include '../database/init_connection.php';
 
 //$email = $_POST['uemail'];
 //$password = $_POST['psw'];
@@ -10,10 +10,9 @@ $password = 'password123';
 
 if(!empty($email) && !empty($password))
 {
-    //$sql = "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'";
-    
+
     $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
-    $result = pg_fetch_array($result);
+    $result = pg_fetch_row($result);
 
     if($result){
         while($row = pg_fetch_row($result)){ 
