@@ -1,8 +1,13 @@
 $(document).ready(function () {
     $("#btnSubmit").click(function (event) {
 
-        event.preventDefault();
-        var data = new FormData($('#loginForm')[0]);
+        // Get form
+        var form = $('#loginForm')[0];
+ 
+        // FormData object 
+        var data = new FormData(form);
+ 
+        // disabled the submit button
         $("#btnSubmit").prop("disabled", true);
  
         $.ajax({
@@ -15,8 +20,8 @@ $(document).ready(function () {
             cache: false,
             timeout: 800000,
             success: function (data){
-                $("#btnSubmit").prop("disabled", false);
                 console.log("SUCCESS : " ,data);
+                $("#btnSubmit").prop("disabled", false);
                 //window.location.replace("index.php");
             },
             error: function (e) {
