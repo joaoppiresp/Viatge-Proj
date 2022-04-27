@@ -22,7 +22,7 @@ $(document).ready(function () {
             },
             error: function (e) {
                 console.log("user not found, try again: ",e);
-                window.location.reload();
+                //window.location.reload();
                 $("#btnSubmit").prop("disabled", false);
             }
         });
