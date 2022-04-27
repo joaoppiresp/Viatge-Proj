@@ -12,7 +12,7 @@ $password = 'password123';
 
 if(!empty($username) && !empty($email) && !empty($password)){
 
-    $result = pg_query_params($dbconn, "INSERT INTO users(username, email, passwrd) VALUES(\$1, \$2, \$3)", array($username, $email, $password));
+    $result = pg_query_params($dbconn, "INSERT INTO users(username, email, passwrd, role_fk) VALUES(\$1, \$2, \$3, '1')", array($username, $email, $password));
 
     //$result = pg_insert($dbconn, 'users', array());
 
