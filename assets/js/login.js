@@ -8,7 +8,7 @@ $(document).ready(function () {
  
         $.ajax({
             type: "POST",
-            enctype: 'multipart/form-data',
+            //enctype: 'multipart/form-data',
             url: "assets/php/authentication/login.php",
             data: $("#loginForm").serialize(),
             processData: false,
