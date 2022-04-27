@@ -20,7 +20,7 @@ $(document).ready(function () {
             timeout: 800000,
             success: function (data) {
 
-                if(data === 'false'){
+                if(data === '0'){
                     console.log("user not found, try again");
                     window.location.reload;
                 }else{

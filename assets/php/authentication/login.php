@@ -2,11 +2,11 @@
 
 include '../database/init_connection.php';
 
-//$email = $_POST['uemail'];
-//$password = $_POST['psw'];
+$email = $_POST['uemail'];
+$password = $_POST['psw'];
 //$password = md5($_POST['passwrd']);
-$email = 'testuser@gmail.com';
-$password = 'password123';
+//$email = 'testuser@gmail.com';
+//$password = 'password123';
 
 if(!empty($email) && !empty($password))
 {
@@ -16,10 +16,10 @@ if(!empty($email) && !empty($password))
     while($row = pg_fetch_row($result)){ 
         
         if(json_encode($row)==='["f"]'){
-            echo 'user not found';
+            $value = '0'; //user not found
+            echo json_encode($value);
         }else{
-            echo json_encode($row);
-            echo 'user found';
+            echo json_encode($row); //user found
         }
         
     }
