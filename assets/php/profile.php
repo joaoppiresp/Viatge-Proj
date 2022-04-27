@@ -6,6 +6,7 @@ include '../database/init_connection.php';
 $email = 'testuser@gmail.com';
 
 $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='testuser@gmail.com'");
+echo $result;
 
 while($row = pg_fetch_row($result)){ 
      if(json_encode($row)==='["f"]'){
