@@ -17,19 +17,13 @@ $(document).ready(function () {
             cache: false,
             timeout: 800000,
             success: function (data){
-
-                if(data === '["0"]'){
-                    console.log("user not found, try again");
-                    window.location.reload();
-                }else{
-                    $("#btnSubmit").prop("disabled", false);
-                    console.log("SUCCESS : ");
-                    //window.location.replace("index.php");
-                }
-
+                $("#btnSubmit").prop("disabled", false);
+                console.log("SUCCESS : ");
+                //window.location.replace("index.php");
             },
             error: function (e) {
-                console.log("ERROR : ", e);
+                console.log("user not found, try again: ",e);
+                window.location.reload();
                 $("#btnSubmit").prop("disabled", false);
             }
         });
