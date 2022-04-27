@@ -19,6 +19,7 @@ if(!empty($email) && !empty($password))
         }
     }else{
         $false_value = "false";
+        echo $false_value;
         echo json_encode($false_value);
     }
 
