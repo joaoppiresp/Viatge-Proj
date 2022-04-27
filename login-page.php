@@ -60,7 +60,7 @@
                                 <div class="panel-body tabs-menu-body p-0 pt-5">
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="tab5">
-                                            <form class="login-ajax" action="../assets/php/authentication/login.php" method="POST">
+                                            <form class="login-ajax" action="assets/php/authentication/login.php" method="POST">
                                                 <label for="uemail"><b>Email</b></label>
                                                 <input type="text" placeholder="Email" name="uemail" required>
 
