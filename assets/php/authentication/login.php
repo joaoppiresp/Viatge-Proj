@@ -6,7 +6,7 @@ include '../database/init_connection.php';
 //$password = $_POST['psw'];
 //$password = md5($_POST['passwrd']);
 $email = 'testuser@gmail.com';
-$password = 'password12';
+$password = 'password123';
 
 if(!empty($email) && !empty($password))
 {
