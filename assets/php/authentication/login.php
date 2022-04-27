@@ -14,9 +14,7 @@ if(!empty($email) && !empty($password))
     $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
 
     if(!$result){
-        $false_value = 'false';
-        echo $false_value;
-        echo json_encode($false_value);
+        echo pg_last_error();
        
     }else{
         while($row = pg_fetch_row($result)){ 
