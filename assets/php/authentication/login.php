@@ -19,10 +19,6 @@ if(!empty($email) && !empty($password))
     {
         while($result = pg_fetch_array($result)){
             echo $result[0];
-            echo $result[1];
-            echo $result[2];
-            echo $result[3];
-            echo $result[4];
         }
         //echo json_encode($result_array);
     }
