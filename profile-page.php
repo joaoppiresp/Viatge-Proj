@@ -33,7 +33,7 @@
 
 </head>
 
-<body class="app sidebar-mini ltr">
+<body class="app sidebar-mini ltr" onload="profile.js"> 
 
     <!-- PAGE -->
     <div class="page">
