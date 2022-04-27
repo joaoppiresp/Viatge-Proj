@@ -20,6 +20,8 @@ if(!empty($email) && !empty($password))
             echo $row[2],"<br></br>";
             echo $row[3],"<br></br>";
             echo $row[4],"<br></br>";
+            //echo json_encode($result_array);
+            return $row;
         }
     }else{
         echo'failed to query database';
