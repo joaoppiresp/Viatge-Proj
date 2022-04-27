@@ -17,12 +17,7 @@ function OpenCon()
             echo'Failed to query database<br></br>';
         }else{
             while($row = pg_fetch_row($result)){ 
-                echo $row[0],"<br></br>";
-                echo $row[1],"<br></br>";
-                echo $row[2],"<br></br>";
-                echo $row[3],"<br></br>";
-                echo $row[4],"<br></br>";
-    
+                echo json_encode($row);
             }
         }
     }else{
