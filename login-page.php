@@ -60,9 +60,9 @@
                                 <div class="panel-body tabs-menu-body p-0 pt-5">
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="tab5">
-                                            <form id="loginForm" action="../assets/php/authentication/login.php" method="POST">
+                                            <form class="login-ajax" action="../assets/php/authentication/login.php" method="POST">
                                                 <label for="uemail"><b>Email</b></label>
-                                                <input class="login-ajax" type="text" placeholder="Email" name="uemail" required>
+                                                <input type="text" placeholder="Email" name="uemail" required>
 
                                                 <label for="psw"><b>Password</b></label>
                                                 <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password" name="psw" required>
