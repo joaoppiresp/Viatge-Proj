@@ -2,8 +2,8 @@
 
 include '../database/init_connection.php';
 
-$email = $_POST['uemail'];
-
+//$email = $_POST['uemail'];
+$email = 'testuser@gmail.com';
 
 if(!empty($email))
 {
