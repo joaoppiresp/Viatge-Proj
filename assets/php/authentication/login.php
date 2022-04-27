@@ -5,14 +5,12 @@ include '../database/init_connection.php';
 //$email = $_POST['uemail'];
 //$password = $_POST['psw'];
 //$password = md5($_POST['passwrd']);
-$email = 'testuser@gmail.com';
-$password = 'password123';
-
 
 if(!empty($email) && !empty($password))
 {
-    $sql = "SELECT * FROM users WHERE email=$email AND passwrd=$password;";
- 
+    $sql = "SELECT * FROM users WHERE email=testuser@gmail.com AND passwrd=password123;";
+    //$sql = "SELECT * FROM users WHERE email=$email AND passwrd=$password;";
+    
     $result = pg_query($dbconn, $sql);
 
     if($result)
