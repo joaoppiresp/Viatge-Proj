@@ -17,7 +17,8 @@ if(!empty($email) && !empty($password))
             $value = '0'; //user not found
             echo json_encode($value);
         }else{
-            echo json_encode($row); //user found
+           $user_info = json_encode($row); //user found
+           echo $user_info;
         }
         
     }
