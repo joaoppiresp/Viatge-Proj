@@ -1,6 +1,6 @@
 <?php
 
-include '../database/init_connection.php';
+include './database/init_connection.php';
 
 //$email = $_POST['uemail'];
 //$password = $_POST['psw'];
