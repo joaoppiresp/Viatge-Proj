@@ -8,7 +8,8 @@ $email = 'testuser@gmail.com';
 $result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'");
 
 if(!$result){
-    echo 'query failed';
+    $value = '0'; //user not found
+    echo json_encode($value);
 }else{
     while($row = pg_fetch_row($result)){ 
         echo json_encode($row);
