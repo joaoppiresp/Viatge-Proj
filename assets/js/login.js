@@ -1,17 +1,16 @@
 $(document).ready(function () {
-    $("#btnSubmit").click(function (event) {
-        //stop submit the form, we will post it manually.
+    $("#loginForm").submit(function (event) {
+
         event.preventDefault();
         // FormData object 
-        var data = new FormData($('#loginForm')[0]);
-        // disabled the submit button
+        //var data = new FormData($('#loginForm')[0]);
         $("#btnSubmit").prop("disabled", true);
  
         $.ajax({
             type: "POST",
             enctype: 'multipart/form-data',
             url: "assets/php/authentication/login.php",
-            data: data,
+            data: $("#loginForm").serialize(),
             processData: false,
             contentType: false,
             cache: false,
