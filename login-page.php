@@ -60,14 +60,14 @@
                                 <div class="panel-body tabs-menu-body p-0 pt-5">
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="tab5">
-                                            <form id="loginForm" action="../assets/php/login.php" method="POST">
+                                            <form id="loginForm" action="login.php" method="POST">
                                                 <label for="uemail"><b>Email</b></label>
                                                 <input class="input100 border-start-0 form-control ms-0" type="text" placeholder="Email" name="uemail" required>
 
                                                 <label for="psw"><b>Password</b></label>
                                                 <input class="input100 border-start-0 form-control ms-0" type="password" placeholder="Password" name="psw" required>
                                                 <input class="login100-form-btn btn-primary" type="submit" value="Submit">
-                                                
+
                                                 <div class="text-end pt-4">
                                                     <p class="mb-0"><a href="forgot-password.html" class="text-primary ms-1">Forgot Password?</a></p>
                                                 </div>
