@@ -32,7 +32,7 @@ function OpenCon()
     */
 
     //debug2
-    $email = 'testusers@gmail.com';
+    $email = 'testuser@gmail.com';
     $password = 'password123';
     
         //$result = pg_query($dbconn, "SELECT * FROM users WHERE users.email='" . $email . "'AND users.passwrd='" . $password . "'");
