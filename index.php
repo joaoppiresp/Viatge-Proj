@@ -165,12 +165,8 @@
                             <li class="slide">
                                 <a class="side-menu__item" data-bs-toggle="slide" href="index.html"><i
                                         class="side-menu__icon fe fe-home"></i><span
-                                        class="side-menu__label">Dashboard</span></a>
-                            </li>
-                            
-                            
-                            <li class="sub-category">
-                                <h3>Pre-build Pages</h3>
+                                        class="side-menu__label">Dashboard</span>
+                                </a>
                             </li>
                             <li class="slide">
                                 <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
@@ -198,19 +194,12 @@
                             </li>
                         
                             <li class="sub-category">
-                                <h3>General</h3>
+                                <h3>Planning Trips</h3>
                             </li>
-                        
-                            <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
-                                        class="side-menu__icon fe fe-map-pin"></i><span
-                                        class="side-menu__label">Maps</span><i
-                                        class="angle fe fe-chevron-right"></i></a>
-                                <ul class="slide-menu">
-                                    <li class="side-menu-label1"><a href="javascript:void(0)">Maps</a></li>
-                                    <li><a href="maps1.html" class="slide-item">Leaflet Maps</a></li>
-                                </ul>
-                            </li>
+                            <a class="side-menu__item" data-bs-toggle="slide" href="maps1.html"><i
+                                class="side-menu__icon fe fe-map-pin"></i><span
+                                class="side-menu__label">Maps</span><i
+                                class="angle fe fe-chevron-right"></i></a>
                         </ul>
                         <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
                                 width="24" height="24" viewBox="0 0 24 24">
@@ -227,17 +216,6 @@
                     <!-- CONTAINER -->
                     <div class="main-container container-fluid">
 
-                        <!-- PAGE-HEADER -->
-                        <div class="page-header">
-                            <h1 class="page-title">Dashboard</h1>
-                            <div>
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Dashboard 01</li>
-                                </ol>
-                            </div>
-                        </div>
-                        <!-- PAGE-HEADER END -->
                         <!-- ROW-1 -->
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
@@ -268,7 +246,7 @@
                                             <div class="card-body">
                                                 <div class="d-flex">
                                                     <div class="mt-2">
-                                                        <h6 class="">Total Profit</h6>
+                                                        <h6 class="">Total Plans Created</h6>
                                                         <h2 class="mb-0 number-font">67,987</h2>
                                                     </div>
                                                     <div class="ms-auto">
@@ -289,8 +267,8 @@
                                             <div class="card-body">
                                                 <div class="d-flex">
                                                     <div class="mt-2">
-                                                        <h6 class="">Total Expenses</h6>
-                                                        <h2 class="mb-0 number-font">$76,965</h2>
+                                                        <h6 class="">Average Active Users</h6>
+                                                        <h2 class="mb-0 number-font">20,000</h2>
                                                     </div>
                                                     <div class="ms-auto">
                                                         <div class="chart-wrapper mt-1">
@@ -310,8 +288,8 @@
                                             <div class="card-body">
                                                 <div class="d-flex">
                                                     <div class="mt-2">
-                                                        <h6 class="">Total Cost</h6>
-                                                        <h2 class="mb-0 number-font">$59,765</h2>
+                                                        <h6 class="">User Satisfaction </h6>
+                                                        <h2 class="mb-0 number-font">76%</h2>
                                                     </div>
                                                     <div class="ms-auto">
                                                         <div class="chart-wrapper mt-1">
@@ -347,7 +325,7 @@
                                                             class="text-muted fs-11 mx-2 fw-normal">09 July 2021</span>
                                                     </h6>
                                                     <p class="text-muted fs-12">Adam Berry finished task on<a href="javascript:void(0)"
-                                                            class="fw-semibold"> Project Management</a></p>
+                                                            class="fw-semibold"> Cleaning up Home-Page</a></p>
                                                 </div>
                                                 <div class="ms-auto d-md-flex">
                                                     <a href="javascript:void(0)" class="text-muted me-2" data-bs-toggle="tooltip"
@@ -363,8 +341,8 @@
                                                     <h6 class="fw-semibold">New Comment<span
                                                             class="text-muted fs-11 mx-2 fw-normal">05 July 2021</span>
                                                     </h6>
-                                                    <p class="text-muted fs-12">Victoria commented on Project <a
-                                                            href="javascript:void(0)" class="fw-semibold"> AngularJS Template</a></p>
+                                                    <p class="text-muted fs-12">Victoria commented on Task <a
+                                                            href="javascript:void(0)" class="fw-semibold"> Pre-planned trips</a></p>
                                                 </div>
                                                 <div class="ms-auto d-md-flex">
                                                     <a href="javascript:void(0)" class="text-muted me-2" data-bs-toggle="tooltip"
@@ -380,8 +358,8 @@
                                                     <h6 class="fw-semibold">New Comment<span
                                                             class="text-muted fs-11 mx-2 fw-normal">25 June 2021</span>
                                                     </h6>
-                                                    <p class="text-muted fs-12">Victoria commented on Project <a
-                                                            href="javascript:void(0)" class="fw-semibold"> AngularJS Template</a></p>
+                                                    <p class="text-muted fs-12">Victoria finished task on<a
+                                                            href="javascript:void(0)" class="fw-semibold"> Destination overall</a></p>
                                                 </div>
                                                 <div class="ms-auto d-md-flex">
                                                     <a href="javascript:void(0)" class="text-muted me-2" data-bs-toggle="tooltip"
@@ -398,7 +376,7 @@
                                                             class="text-muted fs-11 mx-2 fw-normal">14 June 2021</span>
                                                     </h6>
                                                     <p class="text-muted mb-0 fs-12">Petey Cruiser finished task <a
-                                                            href="javascript:void(0)" class="fw-semibold"> Integrated management</a></p>
+                                                            href="javascript:void(0)" class="fw-semibold"> user interaction systems</a></p>
                                                 </div>
                                                 <div class="ms-auto d-md-flex">
                                                     <a href="javascript:void(0)" class="text-muted me-2" data-bs-toggle="tooltip"
@@ -415,7 +393,7 @@
                                                             class="text-muted fs-11 mx-2 fw-normal">29 June 2021</span>
                                                     </h6>
                                                     <p class="text-muted mb-0 fs-12">Petey Cruiser finished task <a
-                                                            href="javascript:void(0)" class="fw-semibold"> Integrated management</a></p>
+                                                            href="javascript:void(0)" class="fw-semibold"> user complains</a></p>
                                                 </div>
                                                 <div class="ms-auto d-md-flex">
                                                     <a href="javascript:void(0)" class="text-muted me-2" data-bs-toggle="tooltip"
@@ -432,7 +410,7 @@
                                                             class="text-muted fs-11 mx-2 fw-normal">09 July 2021</span>
                                                     </h6>
                                                     <p class="text-muted fs-12">Adam Berry finished task on<a href="javascript:void(0)"
-                                                            class="fw-semibold"> Project Management</a></p>
+                                                            class="fw-semibold"> Main framework design for new platform</a></p>
                                                 </div>
                                                 <div class="ms-auto d-md-flex">
                                                     <a href="javascript:void(0)" class="text-muted me-2" data-bs-toggle="tooltip"
