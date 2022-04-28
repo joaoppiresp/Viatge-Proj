@@ -196,10 +196,11 @@
                             <li class="sub-category">
                                 <h3>Planning Trips</h3>
                             </li>
+                            <!--
                             <a class="side-menu__item" data-bs-toggle="slide" href="maps1.html"><i
                                 class="side-menu__icon fe fe-map-pin"></i><span
                                 class="side-menu__label">Maps</span><i
-                                class="angle fe fe-chevron-right"></i></a>
+                                class="angle fe fe-chevron-right"></i></a> -->
                         </ul>
                         <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
                                 width="24" height="24" viewBox="0 0 24 24">
