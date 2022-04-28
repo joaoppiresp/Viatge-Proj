@@ -178,9 +178,9 @@
                                     <li><a href="profile.php" class="slide-item"> Profile</a></li>
                                     <li><a href="editprofile.html" class="slide-item"> Edit Profile</a></li>
                                     <li><a href="notify-list.html" class="slide-item"> Notifications List</a></li>
-                                    <li><a href="email-compose.html" class="slide-item"> Mail-Compose</a></li>
+                                    <!-- <li><a href="email-compose.html" class="slide-item"> Mail-Compose</a></li>
                                     <li><a href="email-inbox.html" class="slide-item"> Mail-Inbox</a></li>
-                                    <li><a href="email-read.html" class="slide-item"> Mail-Read</a></li>
+                                    <li><a href="email-read.html" class="slide-item"> Mail-Read</a></li> -->
                                     <li class="sub-slide">
                                         <a class="sub-side-menu__item" data-bs-toggle="sub-slide" href="javascript:void(0)"><span
                                                 class="sub-side-menu__label">Extension</span><i
@@ -215,6 +215,17 @@
 
                     <!-- CONTAINER -->
                     <div class="main-container container-fluid">
+                        <!-- PAGE-HEADER -->
+                        <div class="page-header">
+                            <h1 class="page-title">Dashboard</h1>
+                            <div>
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Dashboard 01</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- PAGE-HEADER END -->
 
                         <!-- ROW-1 -->
                         <div class="row">
