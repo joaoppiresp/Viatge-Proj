@@ -23,7 +23,7 @@ $('form.register-ajax').on('submit', function(){
 
             if(response ==='"1"'){
                 console.log("code: " ,response,", Success on insert!");
-                window.location.replace('profile.html');
+                window.location.replace('profile-page.php');
             }else if(response ==='"0"'){
                 console.log("code: " ,response,", no success on insert!");
             }else if(response ==='"2"'){
