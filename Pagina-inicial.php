@@ -30,6 +30,10 @@
 
   <!-- COLOR SKIN CSS -->
   <link id="theme" rel="stylesheet" type="text/css" media="all" href="../assets/colors/color1.css" />
+
+  <script class="u-script" type="text/javascript" src="../assets/js/jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="../assets/js/nicepage.js" defer=""></script>
+  
   <script src="https://code.jquery.com/jquery-3.4.1.min.js">
   </script>
 </head>
