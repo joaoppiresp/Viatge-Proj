@@ -32,7 +32,7 @@
   <header class="u-clearfix u-header u-sticky u-header" id="sec-be42">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
 
-      <a href="Home.html" class="u-image u-logo u-image-1"><img src="../assets/images/brand/logo1.png"
+      <a href="home.php" class="u-image u-logo u-image-1"><img src="../assets/images/brand/logo1.png"
           class="u-logo-image u-logo-image-1"></a>
 
       <style class="u-sticky-style" data-style-id="5d9f">
@@ -78,7 +78,7 @@
               dolor sit amet.</div>
             <!--/blog_post_content-->
             <!--blog_post_readmore-->
-            <a href="../blog/post-5.html"
+            <a href="post.php"
               class="u-blog-control u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-none u-btn-1">
               <!--blog_post_readmore_content-->
               <!--options_json-->
