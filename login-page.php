@@ -71,7 +71,7 @@
                                                 </div>
                                             </form>        
                                             <div class="text-center pt-3">
-                                                <p class="text-dark mb-0">Not a member?<a href="register.html" class="text-primary ms-1">Sign UP</a></p>
+                                                <p class="text-dark mb-0">Not a member?<a href="register-page.php" class="text-primary ms-1">Sign UP</a></p>
                                             </div>
                                         </div>
                                     </div>
