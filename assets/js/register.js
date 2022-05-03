@@ -35,6 +35,4 @@ $('form.register-ajax').on('submit', function(){
             console.log("ERROR: ",e);
         }
     });
-
-    return false;
 });
