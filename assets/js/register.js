@@ -26,7 +26,7 @@ $('form.register-ajax').on('submit', function(){
                 window.location.replace('profile-page.php');
             }else if(response ==='"0"'){
                 console.log("code: " ,response,", no success on insert!");
-            }else if(response ==='"2"'){
+            }else{
                 console.log("code: " ,response,", form not filled correctly!");
             }
 
