@@ -18,13 +18,13 @@ if(!empty($username) && !empty($email) && !empty($password)){
             echo json_encode($value);
             
         }else{
-           $value = '1'; //insert complete (new users addeded)
-           echo json_encode($value);
+           $value2 = '1'; //insert complete (new users addeded)
+           echo json_encode($value2);
         }
     }
 }else{
-    $value = '2'; //form not filled correctly
-    echo json_encode($value);
+    $value3 = '2'; //form not filled correctly
+    echo json_encode($value3);
 }
 CloseCon($dbconn);
 ?>
