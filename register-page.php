@@ -49,7 +49,7 @@
                 </div>
                 <div class="container-login100">
                     <div class="wrap-login100 p-6">
-                        <form class="register-ajax" action="assets/php/authentication/login-page.php" method="POST">
+                        <form class="register-ajax" action="login-page.php" method="POST">
                             <span class="login100-form-title">
 								Registration
 							</span>
