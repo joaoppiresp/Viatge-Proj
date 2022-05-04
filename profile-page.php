@@ -249,7 +249,7 @@
                                                             <div class="profile-cover__action bg-img"></div>
                                                             <div class="profile-cover__img">
                                                                 <div class="profile-img-1">
-                                                                    <img src="../assets/images/users/21.jpg" alt="img">
+                                                                    <img src="../assets/images/users/avatar-placeholder.jpg" alt="img">
                                                                 </div>
                                                                 <div class="profile-img-content text-dark text-start">
                                                                     <div class="text-dark">
@@ -257,10 +257,6 @@
                                                                         <h5 class="text-muted" id="profile-role">ROLE GOES HERE</h5>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="btn-profile">
-                                                                <button class="btn btn-primary mt-1 mb-1"> <i class="fa fa-rss"></i> <span>Follow</span></button>
-                                                                <button class="btn btn-secondary mt-1 mb-1"> <i class="fa fa-envelope"></i> <span>Message</span></button>
                                                             </div>
                                                         </div>
                                                     </div>
