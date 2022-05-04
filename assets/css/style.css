@@ -919,7 +919,7 @@ pre {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-bottom:30px;
+    padding-bottom:50px;
 }
 
 .row-deck>.col,
