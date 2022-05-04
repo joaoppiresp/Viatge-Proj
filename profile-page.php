@@ -8,8 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Viatge profile page">
-    <meta name="keywords"
-        content="admin,admin dashboard,admin panel,dashboard,statistics, travel planning">
+    <meta name="keywords" content="admin,admin dashboard,admin panel,dashboard,statistics, travel planning">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
@@ -33,7 +32,7 @@
 
 </head>
 
-<body class="app sidebar-mini ltr" onload="profile.js"> 
+<body class="app sidebar-mini ltr" onload="profile.js">
 
     <!-- PAGE -->
     <div class="page">
@@ -68,10 +67,7 @@
                                 </div>
                             </div>
                             <!-- SEARCH -->
-                            <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
-                                aria-controls="navbarSupportedContent-4" aria-expanded="false"
-                                aria-label="Toggle navigation">
+                            <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon fe fe-more-vertical"></span>
                             </button>
                             <div class="navbar navbar-collapse responsive-navbar p-0">
@@ -142,17 +138,14 @@
                     <div class="side-header">
                         <a class="header-brand1" href="index.php">
                             <img src="../assets/images/brand/logo3-grey.png" class="header-brand-img desktop-logo" alt="logo">
-                            <img src="../assets/images/brand/logo2-grey.png" class="header-brand-img toggle-logo"
-                                alt="logo">
+                            <img src="../assets/images/brand/logo2-grey.png" class="header-brand-img toggle-logo" alt="logo">
                             <img src="../assets/images/brand/logo2-white.png" class="header-brand-img light-logo" alt="logo">
-                            <img src="../assets/images/brand/logo3-white.png" class="header-brand-img light-logo1"
-                                alt="logo">
+                            <img src="../assets/images/brand/logo3-white.png" class="header-brand-img light-logo1" alt="logo">
                         </a>
                         <!-- LOGO -->
                     </div>
                     <div class="main-sidemenu">
-                        <div class="slide-left disabled" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg"
-                                fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                        <div class="slide-left disabled" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
                             </svg></div>
                         <ul class="side-menu">
@@ -160,20 +153,15 @@
                                 <h3>Main</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i
-                                        class="side-menu__icon fe fe-home"></i><span
-                                        class="side-menu__label">Dashboard</span></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Dashboard</span></a>
                             </li>
-                            
-                            
+
+
                             <li class="sub-category">
                                 <h3>Pre-build Pages</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
-                                        class="side-menu__icon fe fe-layers"></i><span
-                                        class="side-menu__label">Pages</span><i
-                                        class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Pages</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Pages</a></li>
                                     <li><a href="profile.html" class="slide-item"> Profile</a></li>
@@ -183,9 +171,7 @@
                                     <li><a href="email-inbox.html" class="slide-item"> Mail-Inbox</a></li>
                                     <li><a href="email-read.html" class="slide-item"> Mail-Read</a></li>
                                     <li class="sub-slide">
-                                        <a class="sub-side-menu__item" data-bs-toggle="sub-slide" href="javascript:void(0)"><span
-                                                class="sub-side-menu__label">Extension</span><i
-                                                class="sub-angle fe fe-chevron-right"></i></a>
+                                        <a class="sub-side-menu__item" data-bs-toggle="sub-slide" href="javascript:void(0)"><span class="sub-side-menu__label">Extension</span><i class="sub-angle fe fe-chevron-right"></i></a>
                                         <ul class="sub-slide-menu">
                                             <li><a href="about.html" class="sub-slide-item"> About Company</a></li>
                                             <li><a href="empty.html" class="sub-slide-item"> Empty Page</a></li>
@@ -193,24 +179,20 @@
                                     </li>
                                 </ul>
                             </li>
-                        
+
                             <li class="sub-category">
                                 <h3>General</h3>
                             </li>
-                        
+
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
-                                        class="side-menu__icon fe fe-map-pin"></i><span
-                                        class="side-menu__label">Maps</span><i
-                                        class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-map-pin"></i><span class="side-menu__label">Maps</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Maps</a></li>
                                     <li><a href="maps1.html" class="slide-item">Leaflet Maps</a></li>
                                 </ul>
                             </li>
                         </ul>
-                        <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
-                                width="24" height="24" viewBox="0 0 24 24">
+                        <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
                             </svg></div>
                     </div>
@@ -249,31 +231,13 @@
                                                             <div class="profile-cover__action bg-img"></div>
                                                             <div class="profile-cover__img">
                                                                 <div class="profile-img-1">
-                                                                    <img src="../assets/images/users/21.jpg" alt="img">
+                                                                    <img src="../assets/images/users/avatar-placeholder.png" alt="img">
                                                                 </div>
                                                                 <div class="profile-img-content text-dark text-start">
                                                                     <div class="text-dark">
                                                                         <h3 class="h3 mb-2" id="profile-name">USER NAME GOES HERE</h3>
                                                                         <h5 class="text-muted" id="profile-role">ROLE GOES HERE</h5>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="btn-profile">
-                                                                <button class="btn btn-primary mt-1 mb-1"> <i class="fa fa-rss"></i> <span>Follow</span></button>
-                                                                <button class="btn btn-secondary mt-1 mb-1"> <i class="fa fa-envelope"></i> <span>Message</span></button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="">
-                                                            <div class="social social-profile-buttons mt-5 float-end">
-                                                                <div class="mt-3">
-                                                                    <a class="social-icon text-primary" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                                                    <a class="social-icon text-primary" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                                                                    <a class="social-icon text-primary" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
-                                                                    <a class="social-icon text-primary" href=""><i class="fa fa-rss"></i></a>
-                                                                    <a class="social-icon text-primary" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                                                    <a class="social-icon text-primary" href="https://myaccount.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -284,7 +248,179 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="space-div"></div>
+                                <div class="col-xl-13">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h3 class="card-title">Edit Profile</h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                    <div class="panel panel-default active">
+                                                        <div class="panel-heading " role="tab" id="headingOne1">
+                                                            <h4 class="panel-title">
+                                                                <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+
+                                                                    Edit Password
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Current Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="Current Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">New Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="New Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="Confirm Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default mt-2">
+                                                        <div class="panel-heading" role="tab" id="headingTwo2">
+                                                            <h4 class="panel-title">
+                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+
+                                                                    Edit Email
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Current Email</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Current Email">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">New Email</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="New Email">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Email</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Confirm Email">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default mt-2">
+                                                        <div class="panel-heading" role="tab" id="heading3">
+                                                            <h4 class="panel-title">
+                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+
+                                                                    Edit Username
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Current Username</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Current Username">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">New Username</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="New Username">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Username</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Confirm Username">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- PANEL-GROUP -->
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-xl-3">
                                         <div class="card">
                                             <div class="card-body">
@@ -295,9 +431,9 @@
                                                                 <i class="fe fe-edit fs-20 text-white"></i>
                                                             </div>
                                                             <div class="media-body">
-                                                                <span class="text-muted">Posts</span>
+                                                                <span class="text-muted">Plans Created</span>
                                                                 <div class="fw-semibold fs-25">
-                                                                    328
+                                                                    32
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -310,9 +446,9 @@
                                                                 </span>
                                                             </div>
                                                             <div class="media-body">
-                                                                <span class="text-muted">Followers</span>
+                                                                <span class="text-muted">Friends</span>
                                                                 <div class="fw-semibold fs-25">
-                                                                    937k
+                                                                    57
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -325,9 +461,9 @@
                                                                 </span>
                                                             </div>
                                                             <div class="media-body">
-                                                                <span class="text-muted">Following</span>
+                                                                <span class="text-muted">Destinations Visited</span>
                                                                 <div class="fw-semibold fs-25">
-                                                                    2,876
+                                                                    150
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -335,351 +471,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <div class="card-title">About</div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div>
-                                                    <h5>Biography<i class="fe fe-edit-3 text-primary mx-2"></i></h5>
-                                                    <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-                                                        <a href="javascript:void(0)">Read more</a>
-                                                    </p>
-                                                </div>
-                                                <hr>
-                                                <div class="d-flex align-items-center mb-3 mt-3">
-                                                    <div class="me-4 text-center text-primary">
-                                                        <span><i class="fe fe-briefcase fs-20"></i></span>
-                                                    </div>
-                                                    <div>
-                                                        <strong>San Francisco, CA </strong>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex align-items-center mb-3 mt-3">
-                                                    <div class="me-4 text-center text-primary">
-                                                        <span><i class="fe fe-map-pin fs-20"></i></span>
-                                                    </div>
-                                                    <div>
-                                                        <strong>Francisco, USA</strong>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex align-items-center mb-3 mt-3">
-                                                    <div class="me-4 text-center text-primary">
-                                                        <span><i class="fe fe-phone fs-20"></i></span>
-                                                    </div>
-                                                    <div>
-                                                        <strong>+125 254 3562 </strong>
-                                                    </div>
-                                                </div>
-                                                <div class="d-flex align-items-center mb-3 mt-3">
-                                                    <div class="me-4 text-center text-primary">
-                                                        <span><i class="fe fe-mail fs-20"></i></span>
-                                                    </div>
-                                                    <div>
-                                                        <strong>georgeme@abc.com </strong>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <div class="card-title">Skills</div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="tags">
-                                                    <a href="javascript:void(0)" class="tag">Laravel</a>
-                                                    <a href="javascript:void(0)" class="tag">Angular</a>
-                                                    <a href="javascript:void(0)" class="tag">HTML</a>
-                                                    <a href="javascript:void(0)" class="tag">Vuejs</a>
-                                                    <a href="javascript:void(0)" class="tag">Codiegniter</a>
-                                                    <a href="javascript:void(0)" class="tag">JavaScript</a>
-                                                    <a href="javascript:void(0)" class="tag">Bootstrap</a>
-                                                    <a href="javascript:void(0)" class="tag">PHP</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <div class="card-title">Work & Education</div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="main-profile-contact-list">
-                                                    <div class="me-5">
-                                                        <div class="media mb-4 d-flex">
-                                                            <div class="media-icon bg-primary  mb-3 mb-sm-0 me-3 mt-1">
-                                                                <svg style="width:24px;height:24px;margin-top:-8px" viewBox="0 0 24 24">
-                                                                    <path fill="#fff" d="M12 3L1 9L5 11.18V17.18L12 21L19 17.18V11.18L21 10.09V17H23V9L12 3M18.82 9L12 12.72L5.18 9L12 5.28L18.82 9M17 16L12 18.72L7 16V12.27L12 15L17 12.27V16Z" />
-                                                                </svg>
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h6 class="font-weight-semibold mb-1">Web Designer at <a href="" class="btn-link">Spruko</a></h6>
-                                                                <span>2018 - present</span>
-                                                                <p>Past Work: Spruko, Inc.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="me-5 mt-5 mt-md-0">
-                                                        <div class="media mb-4 d-flex">
-                                                            <div class="media-icon bg-success text-white mb-3 mb-sm-0 me-3 mt-1">
-                                                                <svg style="width:24px;height:24px;margin-top:-8px" viewBox="0 0 24 24">
-                                                                    <path fill="currentColor" d="M20,6C20.58,6 21.05,6.2 21.42,6.59C21.8,7 22,7.45 22,8V19C22,19.55 21.8,20 21.42,20.41C21.05,20.8 20.58,21 20,21H4C3.42,21 2.95,20.8 2.58,20.41C2.2,20 2,19.55 2,19V8C2,7.45 2.2,7 2.58,6.59C2.95,6.2 3.42,6 4,6H8V4C8,3.42 8.2,2.95 8.58,2.58C8.95,2.2 9.42,2 10,2H14C14.58,2 15.05,2.2 15.42,2.58C15.8,2.95 16,3.42 16,4V6H20M4,8V19H20V8H4M14,6V4H10V6H14M12,9A2.25,2.25 0 0,1 14.25,11.25C14.25,12.5 13.24,13.5 12,13.5A2.25,2.25 0 0,1 9.75,11.25C9.75,10 10.76,9 12,9M16.5,18H7.5V16.88C7.5,15.63 9.5,14.63 12,14.63C14.5,14.63 16.5,15.63 16.5,16.88V18Z" />
-                                                                </svg>
-                                                            </div>
-                                                            <div class="media-body">
-                                                                <h6 class="font-weight-semibold mb-1">Studied at <a href="" class="btn-link">University</a></h6>
-                                                                <span>2004-2008</span>
-                                                                <p>Graduation: Bachelor of Science in Computer Science</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
-                                    <div class="col-xl-6">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <form class="profile-edit">
-                                                    <textarea class="form-control" placeholder="What's in your mind right now" rows="7"></textarea>
-                                                    <div class="profile-share border-top-0">
-                                                        <div class="mt-2">
-                                                            <a href="javascript:void(0)" class="me-2" title="Audio" data-bs-toggle="tooltip" data-bs-placement="top"><span class="text-muted"><i class="fe fe-mic"></i></span></a>
-                                                            <a href="javascript:void(0)" class="me-2" title="Video" data-bs-toggle="tooltip" data-bs-placement="top"><span class="text-muted"><i class="fe fe-video"></i></span></a>
-                                                            <a href="javascript:void(0)" class="me-2" title="Image" data-bs-toggle="tooltip" data-bs-placement="top"><span class="text-muted"><i class="fe fe-image"></i></span></a>
-                                                        </div>
-                                                        <button class="btn btn-sm btn-success ms-auto"><i class="fa fa-share ms-1"></i> Share</button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div class="card border p-0 shadow-none">
-                                            <div class="card-body">
-                                                <div class="d-flex">
-                                                    <div class="media mt-0">
-                                                        <div class="media-user me-2">
-                                                            <div class=""><img alt="" class="rounded-circle avatar avatar-md" src="../assets/images/users/16.jpg"></div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h6 class="mb-0 mt-1">Peter Hill</h6>
-                                                            <small class="text-muted">just now</small>
-                                                        </div>
-                                                    </div>
-                                                    <div class="ms-auto">
-                                                        <div class="dropdown show">
-                                                            <a class="new option-dots" href="JavaScript:void(0);" data-bs-toggle="dropdown">
-                                                                <span class=""><i class="fe fe-more-vertical"></i></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-end">
-                                                                <a class="dropdown-item" href="javascript:void(0)">Edit Post</a>
-                                                                <a class="dropdown-item" href="javascript:void(0)">Delete Post</a>
-                                                                <a class="dropdown-item" href="javascript:void(0)">Personal Settings</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="mt-4">
-                                                    <h4 class="fw-semibold mt-3">There is nothing more beautiful.</h4>
-                                                    <p class="mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="card-footer user-pro-2">
-                                                <div class="media mt-0">
-                                                    <div class="media-user me-2">
-                                                        <div class="avatar-list avatar-list-stacked">
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/12.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/2.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/9.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/2.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/4.jpg)"></span>
-                                                            <span class="avatar brround text-primary">+28</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="mb-0 mt-2 ms-2">28 people like your photo</h6>
-                                                    </div>
-                                                    <div class="ms-auto">
-                                                        <div class="d-flex mt-1">
-                                                            <a class="new me-2 text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-heart"></i></span></a>
-                                                            <a class="new me-2 text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-message-square"></i></span></a>
-                                                            <a class="new text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-share-2"></i></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card border p-0 shadow-none">
-                                            <div class="card-body">
-                                                <div class="d-flex">
-                                                    <div class="media mt-0">
-                                                        <div class="media-user me-2">
-                                                            <div class=""><img alt="" class="rounded-circle avatar avatar-md" src="../assets/images/users/16.jpg"></div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h6 class="mb-0 mt-1">Peter Hill</h6>
-                                                            <small class="text-muted">Sep 26 2019, 10:14am</small>
-                                                        </div>
-                                                    </div>
-                                                    <div class="ms-auto">
-                                                        <div class="dropdown show">
-                                                            <a class="new option-dots" href="JavaScript:void(0);" data-bs-toggle="dropdown">
-                                                                <span class=""><i class="fe fe-more-vertical"></i></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-end">
-                                                                <a class="dropdown-item" href="javascript:void(0)">Edit Post</a>
-                                                                <a class="dropdown-item" href="javascript:void(0)">Delete Post</a>
-                                                                <a class="dropdown-item" href="javascript:void(0)">Personal Settings</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="mt-4">
-                                                    <div class="d-flex">
-                                                        <a href="gallery.html" class="w-30 m-2"><img src="../assets/images/media/22.jpg" alt="img" class="br-5"></a>
-                                                        <a href="gallery.html" class="w-30 m-2"><img src="../assets/images//media/24.jpg" alt="img" class="br-5"></a>
-                                                    </div>
-                                                    <h4 class="fw-semibold mt-3">There is nothing more beautiful.</h4>
-                                                    <p class="mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="card-footer user-pro-2">
-                                                <div class="media mt-0">
-                                                    <div class="media-user me-2">
-                                                        <div class="avatar-list avatar-list-stacked">
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/12.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/2.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/9.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/2.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/4.jpg)"></span>
-                                                            <span class="avatar brround text-primary">+28</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="mb-0 mt-2 ms-2">28 people like your photo</h6>
-                                                    </div>
-                                                    <div class="ms-auto">
-                                                        <div class="d-flex mt-1">
-                                                            <a class="new me-2 text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-heart"></i></span></a>
-                                                            <a class="new me-2 text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-message-square"></i></span></a>
-                                                            <a class="new text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-share-2"></i></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card border p-0 shadow-none">
-                                            <div class="card-body">
-                                                <div class="d-flex">
-                                                    <div class="media mt-0">
-                                                        <div class="media-user me-2">
-                                                            <div class=""><img alt="" class="rounded-circle avatar avatar-md" src="../assets/images/users/16.jpg"></div>
-                                                        </div>
-                                                        <div class="media-body">
-                                                            <h6 class="mb-0 mt-1">Peter Hill</h6>
-                                                            <small class="text-muted">Sep 24 2019, 09:14am</small>
-                                                        </div>
-                                                    </div>
-                                                    <div class="ms-auto">
-                                                        <div class="dropdown show">
-                                                            <a class="new option-dots" href="JavaScript:void(0);" data-bs-toggle="dropdown">
-                                                                <span class=""><i class="fe fe-more-vertical"></i></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-end">
-                                                                <a class="dropdown-item" href="javascript:void(0)">Edit Post</a>
-                                                                <a class="dropdown-item" href="javascript:void(0)">Delete Post</a>
-                                                                <a class="dropdown-item" href="javascript:void(0)">Personal Settings</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="mt-4">
-                                                    <div class="d-flex">
-                                                        <a href="gallery.html" class="w-30 m-2"><img src="../assets/images/media/26.jpg" alt="img" class="br-5"></a>
-                                                        <a href="gallery.html" class="w-30 m-2"><img src="../assets/images/media/23.jpg" alt="img" class="br-5"></a>
-                                                        <a href="gallery.html" class="w-30 m-2"><img src="../assets/images/media/21.jpg" alt="img" class="br-5"></a>
-                                                    </div>
-                                                    <h4 class="fw-semibold mt-3">There is nothing more beautiful.</h4>
-                                                    <p class="mb-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="card-footer user-pro-2">
-                                                <div class="media mt-0">
-                                                    <div class="media-user me-2">
-                                                        <div class="avatar-list avatar-list-stacked">
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/12.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/2.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/9.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/2.jpg)"></span>
-                                                            <span class="avatar brround" style="background-image: url(../assets/images/users/4.jpg)"></span>
-                                                            <span class="avatar brround text-primary">+28</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h6 class="mb-0 mt-2 ms-2">28 people like your photo</h6>
-                                                    </div>
-                                                    <div class="ms-auto">
-                                                        <div class="d-flex mt-1">
-                                                            <a class="new me-2 text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-heart"></i></span></a>
-                                                            <a class="new me-2 text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-message-square"></i></span></a>
-                                                            <a class="new text-muted fs-16" href="JavaScript:void(0);"><span class=""><i class="fe fe-share-2"></i></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-3">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <div class="card-title">Followers</div>
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="">
-                                                    <div class="media overflow-visible">
-                                                        <img class="avatar brround avatar-md me-3" src="../assets/images/users/18.jpg" alt="avatar-img">
-                                                        <div class="media-body valign-middle mt-2">
-                                                            <a href="" class=" fw-semibold text-dark">John Paige</a>
-                                                            <p class="text-muted mb-0">johan@gmail.com</p>
-                                                        </div>
-                                                        <div class="media-body valign-middle text-end overflow-visible mt-2">
-                                                            <button class="btn btn-sm btn-primary" type="button">Follow</button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media overflow-visible mt-sm-5">
-                                                        <span class="avatar cover-image avatar-md brround bg-pink me-3">LQ</span>
-                                                        <div class="media-body valign-middle mt-2">
-                                                            <a href="" class="fw-semibold text-dark">Lillian Quinn</a>
-                                                            <p class="text-muted mb-0">lilliangore</p>
-                                                        </div>
-                                                        <div class="media-body valign-middle text-end overflow-visible mt-1">
-                                                            <button class="btn btn-sm btn-secondary" type="button">Follow</button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media overflow-visible mt-sm-5">
-                                                        <img class="avatar brround avatar-md me-3" src="../assets/images/users/2.jpg" alt="avatar-img">
-                                                        <div class="media-body valign-middle mt-2">
-                                                            <a href="" class="text-dark fw-semibold">Harry Fisher</a>
-                                                            <p class="text-muted mb-0">harryuqt</p>
-                                                        </div>
-                                                        <div class="media-body valign-middle text-end overflow-visible mt-1">
-                                                            <button class="btn btn-sm btn-danger" type="button">Follow</button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media overflow-visible mt-sm-5">
-                                                        <span class="avatar cover-image avatar-md brround me-3 bg-primary">IH</span>
-                                                        <div class="media-body valign-middle mt-2">
-                                                            <a href="" class="fw-semibold text-dark">Irene Harris</a>
-                                                            <p class="text-muted mb-0">harris@gmail.com</p>
-                                                        </div>
-                                                        <div class="media-body valign-middle text-end overflow-visible mt-1">
-                                                            <button class="btn btn-sm btn-success" type="button">Follow</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-13">
                                         <div class="card">
                                             <div class="card-header">
                                                 <div class="card-title">Our Latest News</div>
@@ -1218,76 +1013,58 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content country-select-modal">
                     <div class="modal-header">
-                        <h6 class="modal-title">Choose Country</h6><button aria-label="Close" class="btn-close"
-                            data-bs-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                        <h6 class="modal-title">Choose Country</h6><button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
                     </div>
                     <div class="modal-body">
                         <ul class="row p-3">
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block active">
-                                    <span class="country-selector"><img alt="" src="../assets/images/flags/us_flag.jpg"
-                                            class="me-3 language"></span>USA
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/us_flag.jpg" class="me-3 language"></span>USA
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/italy_flag.jpg"
-                                        class="me-3 language"></span>Italy
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/italy_flag.jpg" class="me-3 language"></span>Italy
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/spain_flag.jpg"
-                                        class="me-3 language"></span>Spain
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/spain_flag.jpg" class="me-3 language"></span>Spain
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/india_flag.jpg"
-                                        class="me-3 language"></span>India
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/india_flag.jpg" class="me-3 language"></span>India
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/french_flag.jpg"
-                                        class="me-3 language"></span>French
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/french_flag.jpg" class="me-3 language"></span>French
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/russia_flag.jpg"
-                                        class="me-3 language"></span>Russia
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/russia_flag.jpg" class="me-3 language"></span>Russia
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/germany_flag.jpg"
-                                        class="me-3 language"></span>Germany
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/germany_flag.jpg" class="me-3 language"></span>Germany
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/argentina.jpg"
-                                        class="me-3 language"></span>Argentina
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/argentina.jpg" class="me-3 language"></span>Argentina
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt="" src="../assets/images/flags/malaysia.jpg"
-                                        class="me-3 language"></span>Malaysia
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/malaysia.jpg" class="me-3 language"></span>Malaysia
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt="" src="../assets/images/flags/turkey.jpg"
-                                        class="me-3 language"></span>Turkey
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/turkey.jpg" class="me-3 language"></span>Turkey
                                 </a>
                             </li>
                         </ul>
@@ -1302,12 +1079,13 @@
             <div class="container">
                 <div class="row align-items-center flex-row-reverse">
                     <div class="col-md-12 col-sm-12 text-center">
-                        Copyright © <span id="year"></span> <a href="javascript:void(0)">Sash</a>. Designed with <span class="fa fa-heart text-danger"></span> by <a href="javascript:void(0)"> Spruko </a> All rights reserved.
+                        Copyright © <span id="year"></span> <a href="javascript:void(0)">Viatge</a>. Have fun planning your
+                        next trip!
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- FOOTER CLOSED -->
+        <!-- FOOTER END -->
     </div>
 
     <!-- BACK-TO-TOP -->
@@ -1351,6 +1129,10 @@
 
     <!-- PROFILE SCRIPT -->
     <script src="../assets/js/profile.js" type="text/javascript"></script>
+
+    <!-- ACCORDION JS -->
+    <script src="../assets/plugins/accordion/accordion.min.js"></script>
+    <script src="../assets/plugins/accordion/accordion.js"></script>
 
 </body>
 

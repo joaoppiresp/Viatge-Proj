@@ -914,6 +914,14 @@ pre {
     flex-direction: column;
 }
 
+.space-div{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom:60px;
+}
+
 .row-deck>.col,
 .row-deck>[class*=col-] {
     display: -ms-flexbox;
@@ -39051,6 +39059,14 @@ ul {
     padding-left: 0.75rem;
 }
 
+.col-xl-13{
+    position: relative;
+    display: inline-flex;
+    width: 80%;
+    min-height: 1px;
+    
+}
+
 .col {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -43759,7 +43775,7 @@ ul.inbox-pagination li {
     -webkit-box-pack: end;
     justify-content: flex-end;
     overflow: hidden;
-    background: url(../images/media/profile-background1.jpg) no-repeat;
+    background: url(../images/media/profile-cover.png) no-repeat;
     background-size: cover;
 }
 
@@ -43769,13 +43785,13 @@ ul.inbox-pagination li {
     color: #fff;
     position: absolute;
     left: 50px;
-    top: 183px;
+    top: 175px;
     text-align: center;
     z-index: 1;
 }
 
 .profile-cover__img .profile-img-1>img {
-    max-width: 120px;
+    max-width: 140px;
     border: 5px solid #ffffff;
     border-radius: 50%;
     margin-top: 55px;
@@ -43783,7 +43799,7 @@ ul.inbox-pagination li {
 }
 
 .profile-cover__img .profile-img-content {
-    margin-top: 100px;
+    margin-top: 125px;
     display: flex;
     margin-left: 10px;
 }
