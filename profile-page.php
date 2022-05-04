@@ -257,11 +257,41 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                <div class="panel panel-default active">
+                                                        <div class="panel-heading " role="tab" id="headingOne1">
+                                                            <h4 class="panel-title">
+                                                                <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                                                    Edit Profile Photos
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="Confirm Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                     <div class="panel panel-default active">
                                                         <div class="panel-heading " role="tab" id="headingOne1">
                                                             <h4 class="panel-title">
                                                                 <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-
                                                                     Edit Password
                                                                 </a>
                                                             </h4>
@@ -269,7 +299,6 @@
                                                         <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
                                                             <div class="panel-body">
                                                                 <div class="card">
-
                                                                     <div class="card-body">
                                                                         <div class="form-group">
                                                                             <label class="form-label">Current Password</label>
@@ -314,7 +343,6 @@
                                                         <div class="panel-heading" role="tab" id="headingTwo2">
                                                             <h4 class="panel-title">
                                                                 <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-
                                                                     Edit Email
                                                                 </a>
                                                             </h4>
@@ -322,7 +350,6 @@
                                                         <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
                                                             <div class="panel-body">
                                                                 <div class="card">
-
                                                                     <div class="card-body">
                                                                         <div class="form-group">
                                                                             <label class="form-label">Current Email</label>
@@ -367,7 +394,6 @@
                                                         <div class="panel-heading" role="tab" id="heading3">
                                                             <h4 class="panel-title">
                                                                 <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-
                                                                     Edit Username
                                                                 </a>
                                                             </h4>
@@ -375,7 +401,6 @@
                                                         <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                                             <div class="panel-body">
                                                                 <div class="card">
-
                                                                     <div class="card-body">
                                                                         <div class="form-group">
                                                                             <label class="form-label">Current Username</label>
