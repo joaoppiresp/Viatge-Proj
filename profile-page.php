@@ -560,9 +560,7 @@
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-facebook"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-twitter"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-linkedin"></i></a>
+                                                                <a class="social-icon bg-white" href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
