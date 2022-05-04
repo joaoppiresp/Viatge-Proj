@@ -37,3 +37,4 @@ $('form.register-ajax').on('submit', function(){
     });
     return false;
 });
+
