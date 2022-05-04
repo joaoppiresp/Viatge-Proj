@@ -421,7 +421,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3">
+                                    <div class="col-xl-14">
                                         <div class="card">
                                             <div class="card-body">
                                                 <div class="main-profile-contact-list">
