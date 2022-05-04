@@ -531,6 +531,17 @@
                             <div class="u-container-layout u-valign-middle u-container-layout-1">
                               <h2 class="u-text u-text-body-alt-color u-text-default u-text-1">
                                 Mapas&nbsp;</h2>
+                                <div class="col-lg-12">
+                                <div class="card mg-b-20" id="map2">
+                                    <div class="card-header">
+                                        <div class="card-title">With Popup</div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="ht-300" id="leaflet2" style="height:300px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                             </div>
                           </div>
                         </div>
