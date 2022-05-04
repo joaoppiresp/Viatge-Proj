@@ -477,7 +477,7 @@
                                     <div class="col-xl-13">
                                         <div class="card">
                                             <div class="card-header">
-                                                <div class="card-title">Our Latest News</div>
+                                                <div class="card-title">Your Latest News</div>
                                             </div>
                                             <div class="card-body">
                                                 <div class="">
@@ -485,28 +485,28 @@
                                                         <img class="avatar bradius avatar-xl me-3" src="../assets/images/users/12.jpg" alt="avatar-img">
                                                         <div class="media-body valign-middle">
                                                             <a href="" class="fw-semibold text-dark">John Paige</a>
-                                                            <p class="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
+                                                            <p class="text-muted mb-0">I just created a new trip, check it out!</p>
                                                         </div>
                                                     </div>
                                                     <div class="media media-xs overflow-visible mt-5">
                                                         <img class="avatar bradius avatar-xl me-3" src="../assets/images/users/2.jpg" alt="avatar-img">
                                                         <div class="media-body valign-middle">
                                                             <a href="" class="fw-semibold text-dark">Peter Hill</a>
-                                                            <p class="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
+                                                            <p class="text-muted mb-0">Updated the budget on our Spain trip</p>
                                                         </div>
                                                     </div>
                                                     <div class="media media-xs overflow-visible mt-5">
                                                         <img class="avatar bradius avatar-xl me-3" src="../assets/images/users/9.jpg" alt="avatar-img">
                                                         <div class="media-body valign-middle">
                                                             <a href="" class="fw-semibold text-dark">Irene Harris</a>
-                                                            <p class="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
+                                                            <p class="text-muted mb-0">Accepted request to join Australia Vacation Plan</p>
                                                         </div>
                                                     </div>
                                                     <div class="media media-xs overflow-visible mt-5">
                                                         <img class="avatar bradius avatar-xl me-3" src="../assets/images/users/4.jpg" alt="avatar-img">
                                                         <div class="media-body valign-middle">
                                                             <a href="" class="fw-semibold text-dark">Harry Fisher</a>
-                                                            <p class="text-muted mb-0">There are many variations of passages of Lorem Ipsum available ...</p>
+                                                            <p class="text-muted mb-0">I added the Museum visit to the plan.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -523,7 +523,6 @@
                                                         <img class="avatar brround avatar-md me-3" src="../assets/images/users/18.jpg" alt="avatar-img">
                                                         <div class="media-body valign-middle">
                                                             <a href="" class=" fw-semibold text-dark">John Paige</a>
-                                                            <p class="text-muted mb-0">Web Designer</p>
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
@@ -537,7 +536,6 @@
                                                         <span class="avatar cover-image avatar-md brround bg-pink me-3">LQ</span>
                                                         <div class="media-body valign-middle mt-0">
                                                             <a href="" class="fw-semibold text-dark">Lillian Quinn</a>
-                                                            <p class="text-muted mb-0">Web Designer</p>
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
@@ -551,7 +549,6 @@
                                                         <img class="avatar brround avatar-md me-3" src="../assets/images/users/2.jpg" alt="avatar-img">
                                                         <div class="media-body valign-middle mt-0">
                                                             <a href="" class="text-dark fw-semibold">Harry Fisher</a>
-                                                            <p class="text-muted mb-0">Web Designer</p>
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
@@ -565,7 +562,6 @@
                                                         <span class="avatar cover-image avatar-md brround me-3 bg-primary">IH</span>
                                                         <div class="media-body valign-middle mt-0">
                                                             <a href="" class="fw-semibold text-dark">Irene Harris</a>
-                                                            <p class="text-muted mb-0">Web Designer</p>
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
