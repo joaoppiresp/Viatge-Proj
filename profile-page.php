@@ -234,8 +234,8 @@
                                                                 </div>
                                                                 <div class="profile-img-content text-dark text-start">
                                                                     <div class="text-dark">
-                                                                        <h3 class="h3 mb-2" id="profile-name">USER NAME GOES HERE</h3>
-                                                                        <h5 class="text-muted" id="profile-role">ROLE GOES HERE</h5>
+                                                                        <h3 class="h3 mb-2" id="profile-name">Marcus Aurelius</h3>
+                                                                        <h5 class="text-muted" id="profile-role">ADMIN</h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
