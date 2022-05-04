@@ -226,7 +226,7 @@
               <div>
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Dashboard 01</li>
+                  <li class="breadcrumb-item active" aria-current="page">Página-inicial</li>
                 </ol>
               </div>
             </div>
@@ -241,23 +241,20 @@
                   <h2 class="u-text u-text-palette-1-base u-text-1">
                     Comece a planear a sua viagem</h2>
 
-                  <p class="u-text u-text-2"> Inicie a <a href="login-page.php"
+                  <p class="u-text u-text-2"> Destinos<a href="blog.php"
                       class="u-border-1 u-border-black u-btn u-button-link u-button-style u-none u-text-body-color u-btn-1">
-                      Sessão</a>
+                      Populares</a>
                   </p>
                 </div>
               </div>
 
-              <div
-                class="u-align-center-md u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-xl u-container-style u-group u-radius-50 u-shape-round u-white u-group-2">
+              <div class="u-align-center-md u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-xl u-container-style u-group u-radius-50 u-shape-round u-white u-group-2">
                 <div class="u-container-layout u-valign-middle-sm u-valign-top-md u-container-layout-2">
                   <div class="u-form u-form-1">
                     <form action="#" method="POST" class="u-clearfix u-form-spacing-13 u-form-vertical u-inner-form"
                       style="padding: 0px;" source="email" name="form-2">
                       <div class="u-form-group u-form-name">
-                        <label for="name-da97" class="u-label">
-                          Destino</label>
-
+                        <label for="name-da97" class="u-label">Destino</label>
                         <input type="text" placeholder="Insira o seu Destino" id="name-da97" name="nome"
                           class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle"
                           required="">
@@ -265,9 +262,18 @@
 
                       <div class="u-form-group u-form-partition-factor-2 u-form-phone u-form-group-2">
                         <label for="phone-10f2" class="u-label">
-                          Data</label>
+                          Partida</label>
 
-                        <input type="date" placeholder="Insira a Data (e.g. dd/mm/yyyy)" id="phone-10f2" name="date"
+                        <input type="date" placeholder="Insira a Partida (e.g. dd/mm/yyyy)" id="phone-10f2" name="date"
+                          class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle"
+                          required="">
+                      </div>
+
+                      <div class="u-form-group u-form-partition-factor-2 u-form-phone u-form-group-2">
+                        <label for="phone-10f2" class="u-label">
+                          Regresso</label>
+
+                        <input type="date" placeholder="Insira o Regresso (e.g. dd/mm/yyyy)" id="phone-10f2" name="date"
                           class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-grey-5 u-input u-input-rectangle"
                           required="">
                       </div>
@@ -402,7 +408,7 @@
                           eiusmod tempor.&nbsp;
                           incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis
                           aliquam.</p>
-                        <a href=""
+                          <a href="...\assets\images\im\bora.jpg"
                           class="u-active-none u-border-1 u-border-active-palette-1-light-1 u-border-hover-palette-1-light-1 u-border-palette-1-dark-2 u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-1">
                           mais</a>
                       </div>
@@ -421,7 +427,7 @@
                           eiusmod tempor.&nbsp;
                           incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis
                           aliquam.</p>
-                        <a href=""
+                          <a href="...\assets\images\im\malasia.jpg"
                           class="u-active-none u-border-1 u-border-active-palette-1-light-1 u-border-hover-palette-1-light-1 u-border-palette-1-dark-2 u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-2">
                           mais</a>
                       </div>
@@ -438,7 +444,7 @@
                           eiusmod tempor.&nbsp;
                           incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis
                           aliquam.</p>
-                        <a href=""
+                          <a href="...\assets\images\im\new.jpg"
                           class="u-active-none u-border-1 u-border-active-palette-1-light-1 u-border-hover-palette-1-light-1 u-border-palette-1-dark-2 u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-3">
                           mais</a>
                       </div>
@@ -456,7 +462,7 @@
                           eiusmod tempor.&nbsp;
                           incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis
                           aliquam.</p>
-                        <a href=""
+                        <a href="...\assets\images\im\indonesia.jpg"
                           class="u-active-none u-border-1 u-border-active-palette-1-light-1 u-border-hover-palette-1-light-1 u-border-palette-1-dark-2 u-btn u-button-style u-hover-none u-none u-text-active-palette-2-base u-text-body-color u-text-hover-palette-2-base u-btn-4">
                           mais</a>
                       </div>
@@ -520,45 +526,82 @@
             </section>
 
             <section class="u-align-center u-clearfix u-palette-1-base u-section-6" id="sec-7ab6">
-              <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-                <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-                  <div class="u-gutter-0 u-layout">
-                    <div class="u-layout-col">
-                      <div class="u-size-30 u-size-60-md">
-                        <div class="u-layout-row">
-                          <div
-                            class="u-align-center u-container-style u-layout-cell u-left-cell u-right-cell u-size-60 u-layout-cell-1">
-                            <div class="u-container-layout u-valign-middle u-container-layout-1">
-                              <h2 class="u-text u-text-body-alt-color u-text-default u-text-1">
-                                Mapas&nbsp;</h2>
+                <h2 class="u-text u-text-body-alt-color u-text-default u-text-1">
+                  Mapa&nbsp;</h2>
+                <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+
+                  <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
+
+                    <div class="u-gutter-0 u-layout">
+
+                      <div class="u-layout-col">
+
+                        <div class="u-size-30 u-size-60-md">
+
+                          <div class="u-layout-row">
+
+                            <div
+                              class="u-align-center u-container-style u-layout-cell u-left-cell u-right-cell u-size-60 u-layout-cell-1">
+
+                              <div class="u-container-layout u-valign-middle u-container-layout-1">
+ <!-- Row -->
+ <div class="row">
+  <div class="col-lg-12">
+      <div class="card">
+          <div class="card-header">
+              <h3 class="card-title">World Map</h3>
+          </div>
+          <div class="card-body">
+              <div id="world-map-markers" class="worldh h-300"></div>
+          </div>
+      </div>
+  </div>
+  <!-- end col -->
+</div>
+<!-- End row -->
+
+                                <div class="card-body">
+
+                                  <div class="ht-300" id="leaflet2" style="height:300px">
+
+                                  </div>
+
+                                </div>
+
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+                    <div class="u-size-30 u-size-60-md">
+                      <div class="u-layout-row">
+                        <div class="u-size-30">
+                          <div class="u-layout-col">
+                            <div
+                              class="u-container-style u-layout-cell u-left-cell u-shape-rectangle u-size-60 u-layout-cell-2">
+                              <div class="u-container-layout u-valign-top u-container-layout-2">
+
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="u-size-30 u-size-60-md">
-                        <div class="u-layout-row">
-                          <div class="u-size-30">
-                            <div class="u-layout-col">
-                              <div
-                                class="u-container-style u-layout-cell u-left-cell u-shape-rectangle u-size-60 u-layout-cell-2">
-                                <div class="u-container-layout u-valign-top u-container-layout-2">
+                        <div class="u-size-30">
+                          <div class="u-layout-col">
+                            <div
+                              class="u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-layout-cell-3">
+                              <div class="u-container-layout u-valign-middle u-container-layout-3">
 
-                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="u-size-30">
-                            <div class="u-layout-col">
-                              <div
-                                class="u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-layout-cell-3">
-                                <div class="u-container-layout u-valign-middle u-container-layout-3">
+                            <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-4">
+                              <div class="u-container-layout u-container-layout-4">
 
-                                </div>
-                              </div>
-                              <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-4">
-                                <div class="u-container-layout u-container-layout-4">
-
-                                </div>
                               </div>
                             </div>
                           </div>
@@ -567,8 +610,9 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </section>
+            </div>
+          </div>
+          </section>
 
             <section class="u-clearfix u-grey-5 u-section-7" id="carousel_6584">
               <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xl u-valign-middle-xs u-sheet-1">
@@ -673,6 +717,20 @@
           <!-- INTERNAL Vector js -->
           <script src="../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
           <script src="../assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+          <script src="../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+      <script src="../assets/plugins/jvectormap/gdp-data.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-asia-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-au-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-de-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-europe-mill-en.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-in-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-us-il-chicago-mill-en.js"></script>
+      <script src="../assets/js/jvectormap.js"></script>
+
 
           <!-- SIDE-MENU JS-->
           <script src="../assets/plugins/sidemenu/sidemenu.js"></script>
