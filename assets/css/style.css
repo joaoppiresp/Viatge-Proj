@@ -914,6 +914,14 @@ pre {
     flex-direction: column;
 }
 
+.space-div{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom:30px;
+}
+
 .row-deck>.col,
 .row-deck>[class*=col-] {
     display: -ms-flexbox;

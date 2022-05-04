@@ -266,6 +266,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="space-div"></div>
                                 <div class="card">
                                     <div class="card-header">
                                         <div class="card-title">Edit Password</div>
