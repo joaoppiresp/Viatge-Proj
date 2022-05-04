@@ -260,7 +260,7 @@
                                                         <div class="panel-heading " role="tab" id="headingOne1">
                                                             <h4 class="panel-title">
                                                                 <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                                                    Upload Profile Photos
+                                                                    Upload Profile Photo
                                                                 </a>
                                                             </h4>
                                                         </div>
@@ -281,6 +281,56 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default mt-2">
+                                                        <div class="panel-heading" role="tab" id="headingTwo2">
+                                                            <h4 class="panel-title">
+                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                                    Edit Password
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Current Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="Current Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">New Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="New Passsword">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="Confirm Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                         <div class="panel-heading " role="tab" id="headingOne1">
                                                             <h4 class="panel-title">
                                                                 <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
