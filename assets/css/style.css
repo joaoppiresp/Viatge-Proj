@@ -922,6 +922,14 @@ pre {
     padding-bottom:60px;
 }
 
+.space-div-2{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left:20px;
+}
+
 .row-deck>.col,
 .row-deck>[class*=col-] {
     display: -ms-flexbox;

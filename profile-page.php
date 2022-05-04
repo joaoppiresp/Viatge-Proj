@@ -512,6 +512,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="space-div-2"></div>
                                         <div class="card">
                                             <div class="card-header">
                                                 <div class="card-title">Friends</div>
