@@ -283,12 +283,12 @@
                                                     <div class="panel panel-default mt-2">
                                                         <div class="panel-heading " role="tab" id="headingOne1">
                                                             <h4 class="panel-title">
-                                                                <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                                            <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                                                     Edit Password
                                                                 </a>
                                                             </h4>
                                                         </div>
-                                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
+                                                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
                                                             <div class="panel-body">
                                                                 <div class="card">
                                                                     <div class="card-body">
