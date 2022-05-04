@@ -8,8 +8,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Viatge profile page">
-    <meta name="keywords"
-        content="admin,admin dashboard,admin panel,dashboard,statistics, travel planning">
+    <meta name="keywords" content="admin,admin dashboard,admin panel,dashboard,statistics, travel planning">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="../assets/images/brand/favicon.ico" />
@@ -33,7 +32,7 @@
 
 </head>
 
-<body class="app sidebar-mini ltr" onload="profile.js"> 
+<body class="app sidebar-mini ltr" onload="profile.js">
 
     <!-- PAGE -->
     <div class="page">
@@ -68,10 +67,7 @@
                                 </div>
                             </div>
                             <!-- SEARCH -->
-                            <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
-                                aria-controls="navbarSupportedContent-4" aria-expanded="false"
-                                aria-label="Toggle navigation">
+                            <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon fe fe-more-vertical"></span>
                             </button>
                             <div class="navbar navbar-collapse responsive-navbar p-0">
@@ -142,17 +138,14 @@
                     <div class="side-header">
                         <a class="header-brand1" href="index.php">
                             <img src="../assets/images/brand/logo3-grey.png" class="header-brand-img desktop-logo" alt="logo">
-                            <img src="../assets/images/brand/logo2-grey.png" class="header-brand-img toggle-logo"
-                                alt="logo">
+                            <img src="../assets/images/brand/logo2-grey.png" class="header-brand-img toggle-logo" alt="logo">
                             <img src="../assets/images/brand/logo2-white.png" class="header-brand-img light-logo" alt="logo">
-                            <img src="../assets/images/brand/logo3-white.png" class="header-brand-img light-logo1"
-                                alt="logo">
+                            <img src="../assets/images/brand/logo3-white.png" class="header-brand-img light-logo1" alt="logo">
                         </a>
                         <!-- LOGO -->
                     </div>
                     <div class="main-sidemenu">
-                        <div class="slide-left disabled" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg"
-                                fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                        <div class="slide-left disabled" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
                             </svg></div>
                         <ul class="side-menu">
@@ -160,20 +153,15 @@
                                 <h3>Main</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i
-                                        class="side-menu__icon fe fe-home"></i><span
-                                        class="side-menu__label">Dashboard</span></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Dashboard</span></a>
                             </li>
-                            
-                            
+
+
                             <li class="sub-category">
                                 <h3>Pre-build Pages</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
-                                        class="side-menu__icon fe fe-layers"></i><span
-                                        class="side-menu__label">Pages</span><i
-                                        class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Pages</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Pages</a></li>
                                     <li><a href="profile.html" class="slide-item"> Profile</a></li>
@@ -183,9 +171,7 @@
                                     <li><a href="email-inbox.html" class="slide-item"> Mail-Inbox</a></li>
                                     <li><a href="email-read.html" class="slide-item"> Mail-Read</a></li>
                                     <li class="sub-slide">
-                                        <a class="sub-side-menu__item" data-bs-toggle="sub-slide" href="javascript:void(0)"><span
-                                                class="sub-side-menu__label">Extension</span><i
-                                                class="sub-angle fe fe-chevron-right"></i></a>
+                                        <a class="sub-side-menu__item" data-bs-toggle="sub-slide" href="javascript:void(0)"><span class="sub-side-menu__label">Extension</span><i class="sub-angle fe fe-chevron-right"></i></a>
                                         <ul class="sub-slide-menu">
                                             <li><a href="about.html" class="sub-slide-item"> About Company</a></li>
                                             <li><a href="empty.html" class="sub-slide-item"> Empty Page</a></li>
@@ -193,24 +179,20 @@
                                     </li>
                                 </ul>
                             </li>
-                        
+
                             <li class="sub-category">
                                 <h3>General</h3>
                             </li>
-                        
+
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i
-                                        class="side-menu__icon fe fe-map-pin"></i><span
-                                        class="side-menu__label">Maps</span><i
-                                        class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-map-pin"></i><span class="side-menu__label">Maps</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Maps</a></li>
                                     <li><a href="maps1.html" class="slide-item">Leaflet Maps</a></li>
                                 </ul>
                             </li>
                         </ul>
-                        <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
-                                width="24" height="24" viewBox="0 0 24 24">
+                        <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z" />
                             </svg></div>
                     </div>
@@ -268,177 +250,177 @@
                                 </div>
                                 <div class="space-div"></div>
                                 <div class="col-xl-13">
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h3 class="card-title">Edit Profile</h3>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                            <div class="panel panel-default active">
-                                                <div class="panel-heading " role="tab" id="headingOne1">
-                                                    <h4 class="panel-title">
-                                                        <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h3 class="card-title">Edit Profile</h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                    <div class="panel panel-default active">
+                                                        <div class="panel-heading " role="tab" id="headingOne1">
+                                                            <h4 class="panel-title">
+                                                                <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
 
-                                                                Edit Password
-                                                            </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
-                                                    <div class="panel-body">
-                                                    <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <div class="form-group">
-                                            <label class="form-label">Current Password</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="password" placeholder="Current Password">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label">New Password</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="password" placeholder="New Password">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label">Confirm Password</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="password" placeholder="Confirm Password">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                    </div>
-                                    <div class="card-footer text-end">
-                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
-                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
-                                    </div>
-                                </div>
+                                                                    Edit Password
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne1">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Current Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="Current Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">New Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="New Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Password</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="password" placeholder="Confirm Password">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default mt-2">
+                                                        <div class="panel-heading" role="tab" id="headingTwo2">
+                                                            <h4 class="panel-title">
+                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+
+                                                                    Edit Email
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Current Email</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Current Email">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">New Email</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="New Email">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Email</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Confirm Email">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="panel panel-default mt-2">
+                                                        <div class="panel-heading" role="tab" id="heading3">
+                                                            <h4 class="panel-title">
+                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+
+                                                                    Edit Username
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                            <div class="panel-body">
+                                                                <div class="card">
+
+                                                                    <div class="card-body">
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Current Username</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Current Username">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">New Username</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="New Username">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label class="form-label">Confirm Username</label>
+                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
+                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
+                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <input class="input100 form-control" type="text" placeholder="Confirm Username">
+                                                                            </div>
+                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="card-footer text-end">
+                                                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
+                                                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <!-- PANEL-GROUP -->
                                             </div>
-                                            <div class="panel panel-default mt-2">
-                                                <div class="panel-heading" role="tab" id="headingTwo2">
-                                                    <h4 class="panel-title">
-                                                        <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-
-                                                                Edit Email
-                                                            </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
-                                                    <div class="panel-body">
-                                                    <div class="card">
-                                    
-                                    <div class="card-body">
-                                        <div class="form-group">
-                                            <label class="form-label">Current Email</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="text" placeholder="Current Email">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label">New Email</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="text" placeholder="New Email">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label">Confirm Email</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="text" placeholder="Confirm Email">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
                                         </div>
                                     </div>
-                                    <div class="card-footer text-end">
-                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
-                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
-                                    </div>
-                                </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="panel panel-default mt-2">
-                                                <div class="panel-heading" role="tab" id="heading3">
-                                                    <h4 class="panel-title">
-                                                        <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-
-                                                                Edit Username
-                                                            </a>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                                    <div class="panel-body"><div class="card">
-                                    
-                                    <div class="card-body">
-                                        <div class="form-group">
-                                            <label class="form-label">Current Username</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="text" placeholder="Current Username">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label">New Username</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle1">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="text" placeholder="New Username">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label">Confirm Username</label>
-                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
-                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                </a>
-                                                <input class="input100 form-control" type="text" placeholder="Confirm Username">
-                                            </div>
-                                            <!-- <input type="password" class="form-control" value="password"> -->
-                                        </div>
-                                    </div>
-                                    <div class="card-footer text-end">
-                                        <a href="javascript:void(0)" class="btn btn-primary">Update</a>
-                                        <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
-                                    </div>
-                                </div></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- PANEL-GROUP -->
-                                    </div>
-                                </div>
-                            </div>
-                                </div>
-                                <div class="row">
                                     <div class="col-xl-3">
                                         <div class="card">
                                             <div class="card-body">
@@ -490,6 +472,8 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="col-xl-3">
                                         <div class="card">
                                             <div class="card-header">
@@ -1029,76 +1013,58 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content country-select-modal">
                     <div class="modal-header">
-                        <h6 class="modal-title">Choose Country</h6><button aria-label="Close" class="btn-close"
-                            data-bs-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                        <h6 class="modal-title">Choose Country</h6><button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
                     </div>
                     <div class="modal-body">
                         <ul class="row p-3">
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block active">
-                                    <span class="country-selector"><img alt="" src="../assets/images/flags/us_flag.jpg"
-                                            class="me-3 language"></span>USA
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/us_flag.jpg" class="me-3 language"></span>USA
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/italy_flag.jpg"
-                                        class="me-3 language"></span>Italy
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/italy_flag.jpg" class="me-3 language"></span>Italy
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/spain_flag.jpg"
-                                        class="me-3 language"></span>Spain
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/spain_flag.jpg" class="me-3 language"></span>Spain
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/india_flag.jpg"
-                                        class="me-3 language"></span>India
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/india_flag.jpg" class="me-3 language"></span>India
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/french_flag.jpg"
-                                        class="me-3 language"></span>French
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/french_flag.jpg" class="me-3 language"></span>French
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/russia_flag.jpg"
-                                        class="me-3 language"></span>Russia
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/russia_flag.jpg" class="me-3 language"></span>Russia
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/germany_flag.jpg"
-                                        class="me-3 language"></span>Germany
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/germany_flag.jpg" class="me-3 language"></span>Germany
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt=""
-                                        src="../assets/images/flags/argentina.jpg"
-                                        class="me-3 language"></span>Argentina
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/argentina.jpg" class="me-3 language"></span>Argentina
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt="" src="../assets/images/flags/malaysia.jpg"
-                                        class="me-3 language"></span>Malaysia
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/malaysia.jpg" class="me-3 language"></span>Malaysia
                                 </a>
                             </li>
                             <li class="col-lg-6 mb-2">
                                 <a href="javascript:void(0)" class="btn btn-country btn-lg btn-block">
-                                    <span class="country-selector"><img alt="" src="../assets/images/flags/turkey.jpg"
-                                        class="me-3 language"></span>Turkey
+                                    <span class="country-selector"><img alt="" src="../assets/images/flags/turkey.jpg" class="me-3 language"></span>Turkey
                                 </a>
                             </li>
                         </ul>
@@ -1110,16 +1076,16 @@
 
         <!-- FOOTER -->
         <footer class="footer">
-              <div class="container">
+            <div class="container">
                 <div class="row align-items-center flex-row-reverse">
-                  <div class="col-md-12 col-sm-12 text-center">
-                    Copyright © <span id="year"></span> <a href="javascript:void(0)">Viatge</a>. Have fun planning your
-                    next trip!
-                  </div>
+                    <div class="col-md-12 col-sm-12 text-center">
+                        Copyright © <span id="year"></span> <a href="javascript:void(0)">Viatge</a>. Have fun planning your
+                        next trip!
+                    </div>
                 </div>
-              </div>
-            </footer>
-            <!-- FOOTER END -->
+            </div>
+        </footer>
+        <!-- FOOTER END -->
     </div>
 
     <!-- BACK-TO-TOP -->
