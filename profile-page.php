@@ -249,7 +249,7 @@
                                                             <div class="profile-cover__action bg-img"></div>
                                                             <div class="profile-cover__img">
                                                                 <div class="profile-img-1">
-                                                                    <img src="../assets/images/users/avatar-placeholder.jpg" alt="img">
+                                                                    <img src="../assets/images/users/avatar-placeholder.png" alt="img">
                                                                 </div>
                                                                 <div class="profile-img-content text-dark text-start">
                                                                     <div class="text-dark">
