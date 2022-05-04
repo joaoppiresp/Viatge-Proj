@@ -474,7 +474,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-xl-3">
+                                    <div class="col-xl-13">
                                         <div class="card">
                                             <div class="card-header">
                                                 <div class="card-title">Our Latest News</div>
