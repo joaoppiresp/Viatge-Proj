@@ -43785,7 +43785,7 @@ ul.inbox-pagination li {
     color: #fff;
     position: absolute;
     left: 50px;
-    top: 183px;
+    top: 175px;
     text-align: center;
     z-index: 1;
 }
@@ -43799,7 +43799,7 @@ ul.inbox-pagination li {
 }
 
 .profile-cover__img .profile-img-content {
-    margin-top: 100px;
+    margin-top: 125px;
     display: flex;
     margin-left: 10px;
 }
