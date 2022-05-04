@@ -520,15 +520,14 @@
                                             <div class="card-body">
                                                 <div class="user-pro-1">
                                                     <div class="media media-xs overflow-visible">
-                                                        <img class="avatar brround avatar-md me-3" src="../assets/images/users/18.jpg" alt="avatar-img">
+                                                        <!--<img class="avatar brround avatar-md me-3" src="../assets/images/users/2.jpg" alt="avatar-img">-->
+                                                        <span class="avatar cover-image avatar-md brround me-3 bg-primary">JP</span>
                                                         <div class="media-body valign-middle">
                                                             <a href="" class=" fw-semibold text-dark">John Paige</a>
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-facebook"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-twitter"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-linkedin"></i></a>
+                                                                <a class="social-icon bg-white" href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -546,7 +545,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="media media-xs overflow-visible mt-5">
-                                                        <img class="avatar brround avatar-md me-3" src="../assets/images/users/2.jpg" alt="avatar-img">
+                                                    <span class="avatar cover-image avatar-md brround me-3 bg-primary">HF</span>
                                                         <div class="media-body valign-middle mt-0">
                                                             <a href="" class="text-dark fw-semibold">Harry Fisher</a>
                                                         </div>
