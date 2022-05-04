@@ -331,15 +331,15 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="panel panel-default mt-2">
-                                                        <div class="panel-heading" role="tab" id="headingTwo2">
+                                                    <div class="panel panel-default mt-3">
+                                                        <div class="panel-heading" role="tab" id="headingTwo3">
                                                             <h4 class="panel-title">
-                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                                                     Edit Email
                                                                 </a>
                                                             </h4>
                                                         </div>
-                                                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
+                                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo3">
                                                             <div class="panel-body">
                                                                 <div class="card">
                                                                     <div class="card-body">
@@ -382,15 +382,15 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="panel panel-default mt-2">
-                                                        <div class="panel-heading" role="tab" id="heading3">
+                                                    <div class="panel panel-default mt-4">
+                                                        <div class="panel-heading" role="tab" id="heading4">
                                                             <h4 class="panel-title">
-                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                                                <a class="collapsed" role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                                                     Edit Username
                                                                 </a>
                                                             </h4>
                                                         </div>
-                                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                                                             <div class="panel-body">
                                                                 <div class="card">
                                                                     <div class="card-body">
