@@ -272,17 +272,6 @@
                                         <div class="card-title">Edit Password</div>
                                     </div>
                                     <div class="card-body">
-                                        <div class="text-center chat-image mb-5">
-                                            <div class="avatar avatar-xxl chat-profile mb-3 brround">
-                                                <a class="" href="profile.html"><img alt="avatar" src="../assets/images/users/7.jpg" class="brround"></a>
-                                            </div>
-                                            <div class="main-chat-msg-name">
-                                                <a href="profile.html">
-                                                    <h5 class="mb-1 text-dark fw-semibold">Percy Kewshun</h5>
-                                                </a>
-                                                <p class="text-muted mt-0 mb-0 pt-0 fs-13">Web Designer</p>
-                                            </div>
-                                        </div>
                                         <div class="form-group">
                                             <label class="form-label">Current Password</label>
                                             <div class="wrap-input100 validate-input input-group" id="Password-toggle">
