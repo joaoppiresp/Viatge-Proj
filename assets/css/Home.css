@@ -650,7 +650,7 @@
 .u-section-3 .u-image-1 {
   width: 200px;
   height: 200px;
-  background-image: url("images/f.jpg");
+  background-image: url("..\assets\images\im\f.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -692,7 +692,7 @@
 .u-section-3 .u-image-2 {
   width: 200px;
   height: 200px;
-  background-image: url("images/hggh.jpg");
+  background-image: url("..\assets\images\im\hggh.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -734,7 +734,7 @@
 .u-section-3 .u-image-3 {
   width: 200px;
   height: 200px;
-  background-image: url("images/jhjh.jpg");
+  background-image: url("..\assets\images\im\jhjh.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -776,7 +776,7 @@
 .u-section-3 .u-image-4 {
   width: 200px;
   height: 200px;
-  background-image: url("images/dd5aebf9-8321-90c1-eeb8-59b984c299e2.jpg");
+  background-image: url("..\assets\images\im\dd5aebf9-8321-90c1-eeb8-59b984c299e2.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }

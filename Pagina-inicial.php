@@ -226,7 +226,7 @@
               <div>
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Dashboard 01</li>
+                  <li class="breadcrumb-item active" aria-current="page">Página-inicial</li>
                 </ol>
               </div>
             </div>
@@ -526,56 +526,82 @@
             </section>
 
             <section class="u-align-center u-clearfix u-palette-1-base u-section-6" id="sec-7ab6">
-              <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-                <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-                  <div class="u-gutter-0 u-layout">
-                    <div class="u-layout-col">
-                      <div class="u-size-30 u-size-60-md">
-                        <div class="u-layout-row">
-                          <div
-                            class="u-align-center u-container-style u-layout-cell u-left-cell u-right-cell u-size-60 u-layout-cell-1">
-                            <div class="u-container-layout u-valign-middle u-container-layout-1">
-                              <h2 class="u-text u-text-body-alt-color u-text-default u-text-1">
-                                Mapas&nbsp;</h2>
-                                <div class="col-lg-12">
-                                <div class="card mg-b-20" id="map2">
-                                    <div class="card-header">
-                                        <div class="card-title">With Popup</div>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="ht-300" id="leaflet2" style="height:300px"></div>
-                                    </div>
+                <h2 class="u-text u-text-body-alt-color u-text-default u-text-1">
+                  Mapa&nbsp;</h2>
+                <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+
+                  <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
+
+                    <div class="u-gutter-0 u-layout">
+
+                      <div class="u-layout-col">
+
+                        <div class="u-size-30 u-size-60-md">
+
+                          <div class="u-layout-row">
+
+                            <div
+                              class="u-align-center u-container-style u-layout-cell u-left-cell u-right-cell u-size-60 u-layout-cell-1">
+
+                              <div class="u-container-layout u-valign-middle u-container-layout-1">
+ <!-- Row -->
+ <div class="row">
+  <div class="col-lg-12">
+      <div class="card">
+          <div class="card-header">
+              <h3 class="card-title">World Map</h3>
+          </div>
+          <div class="card-body">
+              <div id="world-map-markers" class="worldh h-300"></div>
+          </div>
+      </div>
+  </div>
+  <!-- end col -->
+</div>
+<!-- End row -->
+
+                                <div class="card-body">
+
+                                  <div class="ht-300" id="leaflet2" style="height:300px">
+
+                                  </div>
+
                                 </div>
+
+                              </div>
+
                             </div>
-                            
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+                    <div class="u-size-30 u-size-60-md">
+                      <div class="u-layout-row">
+                        <div class="u-size-30">
+                          <div class="u-layout-col">
+                            <div
+                              class="u-container-style u-layout-cell u-left-cell u-shape-rectangle u-size-60 u-layout-cell-2">
+                              <div class="u-container-layout u-valign-top u-container-layout-2">
+
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="u-size-30 u-size-60-md">
-                        <div class="u-layout-row">
-                          <div class="u-size-30">
-                            <div class="u-layout-col">
-                              <div
-                                class="u-container-style u-layout-cell u-left-cell u-shape-rectangle u-size-60 u-layout-cell-2">
-                                <div class="u-container-layout u-valign-top u-container-layout-2">
+                        <div class="u-size-30">
+                          <div class="u-layout-col">
+                            <div
+                              class="u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-layout-cell-3">
+                              <div class="u-container-layout u-valign-middle u-container-layout-3">
 
-                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="u-size-30">
-                            <div class="u-layout-col">
-                              <div
-                                class="u-container-style u-layout-cell u-right-cell u-shape-rectangle u-size-30 u-layout-cell-3">
-                                <div class="u-container-layout u-valign-middle u-container-layout-3">
+                            <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-4">
+                              <div class="u-container-layout u-container-layout-4">
 
-                                </div>
-                              </div>
-                              <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-4">
-                                <div class="u-container-layout u-container-layout-4">
-
-                                </div>
                               </div>
                             </div>
                           </div>
@@ -584,8 +610,9 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </section>
+            </div>
+          </div>
+          </section>
 
             <section class="u-clearfix u-grey-5 u-section-7" id="carousel_6584">
               <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xl u-valign-middle-xs u-sheet-1">
@@ -690,6 +717,20 @@
           <!-- INTERNAL Vector js -->
           <script src="../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
           <script src="../assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+          <script src="../assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+      <script src="../assets/plugins/jvectormap/gdp-data.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-asia-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-au-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-ca-lcc.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-de-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-europe-mill-en.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-in-mill.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-uk-mill-en.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+      <script src="../assets/plugins/jvectormap/jquery-jvectormap-us-il-chicago-mill-en.js"></script>
+      <script src="../assets/js/jvectormap.js"></script>
+
 
           <!-- SIDE-MENU JS-->
           <script src="../assets/plugins/sidemenu/sidemenu.js"></script>
