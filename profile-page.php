@@ -538,22 +538,18 @@
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-facebook"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-twitter"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-linkedin"></i></a>
+                                                                <a class="social-icon bg-white" href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="media media-xs overflow-visible mt-5">
-                                                    <span class="avatar cover-image avatar-md brround me-3 bg-primary">HF</span>
+                                                        <span class="avatar cover-image avatar-md brround me-3 bg-primary">HF</span>
                                                         <div class="media-body valign-middle mt-0">
                                                             <a href="" class="text-dark fw-semibold">Harry Fisher</a>
                                                         </div>
                                                         <div class="">
                                                             <div class="social social-profile-buttons float-end">
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-facebook"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-twitter"></i></a>
-                                                                <a class="social-icon bg-white" href=""><i class="fa fa-linkedin"></i></a>
+                                                                <a class="social-icon bg-white" href=""><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
