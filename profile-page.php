@@ -515,7 +515,7 @@
                                         <div class="space-div-2"></div>
                                         <div class="card">
                                             <div class="card-header">
-                                                <div class="card-title">Friends</div>
+                                                <div class="card-title">Best Friends</div>
                                             </div>
                                             <div class="card-body">
                                                 <div class="user-pro-1">
