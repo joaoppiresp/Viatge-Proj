@@ -164,8 +164,7 @@
                                 <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Pages</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Pages</a></li>
-                                    <li><a href="profile.html" class="slide-item"> Profile</a></li>
-                                    <li><a href="editprofile.html" class="slide-item"> Edit Profile</a></li>
+                                    <li><a href="profile-page.php" class="slide-item"> Profile</a></li>
                                     <li><a href="notify-list.html" class="slide-item"> Notifications List</a></li>
                                     <li><a href="email-compose.html" class="slide-item"> Mail-Compose</a></li>
                                     <li><a href="email-inbox.html" class="slide-item"> Mail-Inbox</a></li>
@@ -257,11 +256,11 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                                <div class="panel panel-default active">
+                                                    <div class="panel panel-default active">
                                                         <div class="panel-heading " role="tab" id="headingOne1">
                                                             <h4 class="panel-title">
                                                                 <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                                                    Edit Profile Photos
+                                                                    Upload Profile Photos
                                                                 </a>
                                                             </h4>
                                                         </div>
@@ -269,15 +268,8 @@
                                                             <div class="panel-body">
                                                                 <div class="card">
                                                                     <div class="card-body">
-                                                                        <div class="form-group">
-                                                                            <label class="form-label">Confirm Password</label>
-                                                                            <div class="wrap-input100 validate-input input-group" id="Password-toggle2">
-                                                                                <a href="javascript:void(0)" class="input-group-text bg-white text-muted">
-                                                                                    <i class="zmdi zmdi-eye text-muted" aria-hidden="true"></i>
-                                                                                </a>
-                                                                                <input class="input100 form-control" type="password" placeholder="Confirm Password">
-                                                                            </div>
-                                                                            <!-- <input type="password" class="form-control" value="password"> -->
+                                                                        <div>
+                                                                            <input id="demo" type="file" name="files" accept="image/jpeg, image/png" multiple>
                                                                         </div>
                                                                     </div>
                                                                     <div class="card-footer text-end">
@@ -288,7 +280,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="panel panel-default active">
+                                                    <div class="panel panel-default mt-2">
                                                         <div class="panel-heading " role="tab" id="headingOne1">
                                                             <h4 class="panel-title">
                                                                 <a role="button" data-bs-toggle="collapse" data-bs-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
@@ -1148,6 +1140,13 @@
     <!-- ACCORDION JS -->
     <script src="../assets/plugins/accordion/accordion.min.js"></script>
     <script src="../assets/plugins/accordion/accordion.js"></script>
+
+    <!-- INTERNAL File-Uploads Js-->
+    <script src="../assets/plugins/fancyuploder/jquery.ui.widget.js"></script>
+    <script src="../assets/plugins/fancyuploder/jquery.fileupload.js"></script>
+    <script src="../assets/plugins/fancyuploder/jquery.iframe-transport.js"></script>
+    <script src="../assets/plugins/fancyuploder/jquery.fancy-fileupload.js"></script>
+    <script src="../assets/plugins/fancyuploder/fancy-uploader.js"></script>
 
 </body>
 
