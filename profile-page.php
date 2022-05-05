@@ -153,41 +153,42 @@
                                 <h3>Main</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Dashboard</span></a>
-                            </li>
-
-
-                            <li class="sub-category">
-                                <h3>Pre-build Pages</h3>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-superpowers" aria-hidden="true"></i><span class="side-menu__label">Dashboard</span></a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Pages</span><i class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="Pagina-inicial.php"><i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Home</span></a>
+                            </li>
+                            <li class="slide">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="profile-page.php"><i class="fa fa-user-o" aria-hidden="true"></i><span class="side-menu__label">Profile</span></a>
+                            </li>
+                            <li class="slide">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="fa fa-car" aria-hidden="true"></i><span class="side-menu__label">Travel Plans</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
-                                    <li class="side-menu-label1"><a href="javascript:void(0)">Pages</a></li>
-                                    <li><a href="profile-page.php" class="slide-item"> Profile</a></li>
-                                    <li><a href="notify-list.html" class="slide-item"> Notifications List</a></li>
-                                    <li><a href="email-compose.html" class="slide-item"> Mail-Compose</a></li>
-                                    <li><a href="email-inbox.html" class="slide-item"> Mail-Inbox</a></li>
-                                    <li><a href="email-read.html" class="slide-item"> Mail-Read</a></li>
-                                    <li class="sub-slide">
-                                        <a class="sub-side-menu__item" data-bs-toggle="sub-slide" href="javascript:void(0)"><span class="sub-side-menu__label">Extension</span><i class="sub-angle fe fe-chevron-right"></i></a>
-                                        <ul class="sub-slide-menu">
-                                            <li><a href="about.html" class="sub-slide-item"> About Company</a></li>
-                                            <li><a href="empty.html" class="sub-slide-item"> Empty Page</a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="side-menu-label1"><a href="javascript:void(0)">Spain Trip</a></li>
+                                    <li><a href="" class="slide-item">Australia Trip</a></li>
+                                    <li><a href="" class="slide-item">Vacation to India</a></li>
+                                    <li><a href="" class="slide-item">Summer in Portugal</a></li>
                                 </ul>
                             </li>
 
                             <li class="sub-category">
-                                <h3>General</h3>
+                                <h3>Extra</h3>
                             </li>
-
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-map-pin"></i><span class="side-menu__label">Maps</span><i class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-bookmark" aria-hidden="true"></i><span class="side-menu__label">About Us</span></a>
+                            </li>
+                            <li class="slide">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-flag-o" aria-hidden="true"></i><span class="side-menu__label">Terms&Conditions</span></a>
+                            </li>
+                            <li class="slide">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-calendar" aria-hidden="true"></i><span class="side-menu__label">Calendar</span></a>
+                            </li>
+                            <li class="slide">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Support</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
-                                    <li class="side-menu-label1"><a href="javascript:void(0)">Maps</a></li>
-                                    <li><a href="maps1.html" class="slide-item">Leaflet Maps</a></li>
+                                    <li class="side-menu-label1"><a href="javascript:void(0)">Contacts</a></li>
+                                    <li><a href="profile-page.php" class="slide-item">Open Cases</a></li>
+                                    <li><a href="notify-list.html" class="slide-item">FAQs</a></li>
                                 </ul>
                             </li>
                         </ul>
