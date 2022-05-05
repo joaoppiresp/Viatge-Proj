@@ -48483,17 +48483,6 @@ ul.timeline>li:before {
     }
 }
 
-.app-header .responsive-navbar .notifications-menu .dropdown-item h5,
-.app-header .responsive-navbar .notifications-menu .dropdown-item span,
-.app-header .responsive-navbar .message-menu .dropdown-item h5,
-.app-header .responsive-navbar .message-menu .dropdown-item span,
-.hor-header .responsive-navbar .notifications-menu .dropdown-item h5,
-.hor-header .responsive-navbar .notifications-menu .dropdown-item span,
-.hor-header .responsive-navbar .message-menu .dropdown-item h5,
-.hor-header .responsive-navbar .message-menu .dropdown-item span {
-    white-space: normal !important;
-}
-
 .app-header .responsive-navbar .notifications-menu .wd-80p,
 .hor-header .responsive-navbar .notifications-menu .wd-80p {
     width: 80%;
