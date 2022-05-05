@@ -113,8 +113,6 @@
                     <div class="side-header">
                         <a class="header-brand1" href="index.php">
                             <img src="../assets/images/brand/logo3-grey.png" class="header-brand-img desktop-logo" alt="logo">
-                            <img src="../assets/images/brand/logo2-grey.png" class="header-brand-img toggle-logo" alt="logo">
-                            <img src="../assets/images/brand/logo2-white.png" class="header-brand-img light-logo" alt="logo">
                             <img src="../assets/images/brand/logo3-white.png" class="header-brand-img light-logo1" alt="logo">
                         </a>
                         <!-- LOGO -->
@@ -621,6 +619,9 @@
 
     <!-- PROFILE SCRIPT -->
     <script src="../assets/js/profile.js" type="text/javascript"></script>
+
+    <!-- SIDEBAR JS -->
+    <script src="../assets/plugins/sidebar/sidebar.js"></script>
 
     <!-- ACCORDION JS -->
     <script src="../assets/plugins/accordion/accordion.min.js"></script>
