@@ -51176,6 +51176,10 @@ svg {
     content: "\f2dd "
 }
 
+.fa fa-user-o{
+    content: "\f2c0 "
+}
+
 .fe-image:before {
     content: "\e978";
 }
