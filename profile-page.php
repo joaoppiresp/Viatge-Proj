@@ -153,7 +153,7 @@
                                 <h3>Main</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-superpowers" aria-hidden="true"></i><span class="side-menu__label">Dashboard</span></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="side-menu__icon fa fa-superpowers" aria-hidden="true"></i><span class="side-menu__label">Dashboard</span></a>
                             </li>
                             <li class="slide">
                                 <a class="side-menu__item" data-bs-toggle="slide" href="Pagina-inicial.php"><i class="side-menu__icon fe fe-home"></i><span class="side-menu__label">Home</span></a>

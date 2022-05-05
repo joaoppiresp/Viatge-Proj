@@ -51172,6 +51172,10 @@ svg {
     content: "\e977";
 }
 
+.fa-superpowers:before {
+    content: "\f2dd "
+}
+
 .fe-image:before {
     content: "\e978";
 }
