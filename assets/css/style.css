@@ -43624,14 +43624,14 @@ ul.inbox-pagination li {
     display: -webkit-box;
     display: flex;
     padding: 252px 30px 10px 185px;
-    border-radius: 5px;
+    border-radius: 3px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-pack: end;
     -webkit-box-pack: end;
     justify-content: flex-end;
     overflow: hidden;
-    background: url(../images/media/profile-cover.png) no-repeat;
+    background: url(../images/media/profile-cover2.png) no-repeat;
     background-size: cover;
 }
 
@@ -43647,7 +43647,7 @@ ul.inbox-pagination li {
 }
 
 .profile-cover__img .profile-img-1>img {
-    max-width: 140px;
+    max-width: 150px;
     border: 5px solid #ffffff;
     border-radius: 50%;
     margin-top: 55px;
