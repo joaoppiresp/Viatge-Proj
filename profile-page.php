@@ -196,7 +196,7 @@
                                                                 <div class="profile-img-content text-dark text-start">
                                                                     <div class="text-dark">
                                                                         <h3 class="h3 mb-2" id="profile-name">Marcus Aurelius</h3>
-                                                                        <h5 class="text-muted" id="profile-role">Admin</h5>
+                                                                        <h5 class="text-muted" id="profile-role">ADMIN</h5>
                                                                     </div>
                                                                 </div>
                                                             </div>
