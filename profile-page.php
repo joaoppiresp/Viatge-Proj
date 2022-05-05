@@ -600,8 +600,8 @@
     <!-- INPUT MASK JS-->
     <script src="../assets/plugins/input-mask/jquery.mask.min.js"></script>
 
-    <!-- SIDEBAR JS -->
-    <script src="../assets/plugins/sidebar/sidebar.js"></script>
+    <!-- SIDE-MENU JS-->
+    <script src="../assets/plugins/sidemenu/sidemenu.js"></script>
 
     <!-- Perfect SCROLLBAR JS-->
     <script src="../assets/plugins/p-scroll/perfect-scrollbar.js"></script>
