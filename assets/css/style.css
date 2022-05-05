@@ -4661,6 +4661,10 @@ input[type=button].btn-block {
     box-shadow: 0 4px 25px 0 rgba(168, 180, 208, 0.1);
 }
 
+.profile-header{
+    padding-top: 30px;
+}
+
 .card>hr {
     margin-right: 0;
     margin-left: 0;

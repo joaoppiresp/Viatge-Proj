@@ -171,7 +171,7 @@
                     </div>
                 </div>
             </div>
-
+            <div class="profile-header"></div>
             <!--app-content open-->
             <div class="main-content app-content mt-0">
                 <div class="side-app">
