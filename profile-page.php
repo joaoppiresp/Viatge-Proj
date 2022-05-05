@@ -42,8 +42,6 @@
             <div class="app-header header sticky">
                 <div class="container-fluid main-container">
                     <div class="d-flex">
-                        <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar" href="javascript:void(0)"></a>
-                        <!-- sidebar-toggle-->
                         <a class="logo-horizontal " href="index.php">
                             <img src="../assets/images/brand/logo3-white.png" class="header-brand-img desktop-logo" alt="logo">
                         </a>
