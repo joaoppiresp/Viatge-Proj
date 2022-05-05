@@ -162,7 +162,7 @@
                                 <a class="side-menu__item" data-bs-toggle="slide" href="profile-page.php"><i class="side-menu__icon fa fa-user-o" aria-hidden="true"></i><span class="side-menu__label">Profile</span></a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="fa fa-car" aria-hidden="true"></i><span class="side-menu__label">Travel Plans</span><i class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fa fa-map-o" aria-hidden="true"></i><span class="side-menu__label">Travel Plans</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Spain Trip</a></li>
                                     <li><a href="" class="slide-item">Australia Trip</a></li>
@@ -175,16 +175,16 @@
                                 <h3>Extra</h3>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-bookmark" aria-hidden="true"></i><span class="side-menu__label">About Us</span></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="side-menu__icon fa fa-file" aria-hidden="true"></i><span class="side-menu__label">About Us</span></a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-flag-o" aria-hidden="true"></i><span class="side-menu__label">Terms&Conditions</span></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="side-menu__icon fa fa-flag-o" aria-hidden="true"></i><span class="side-menu__label">Terms&Conditions</span></a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="fa fa-calendar" aria-hidden="true"></i><span class="side-menu__label">Calendar</span></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="index.php"><i class="side-menu__icon fa fa-calendar" aria-hidden="true"></i><span class="side-menu__label">Calendar</span></a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fe fe-layers"></i><span class="side-menu__label">Support</span><i class="angle fe fe-chevron-right"></i></a>
+                                <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)"><i class="side-menu__icon fa fa-commenting-o"></i><span class="side-menu__label">Support</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu-label1"><a href="javascript:void(0)">Contacts</a></li>
                                     <li><a href="profile-page.php" class="slide-item">Open Cases</a></li>
